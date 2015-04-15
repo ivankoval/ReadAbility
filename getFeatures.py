@@ -10,6 +10,18 @@ import nltk
 import string
 import collections
 import os
+from  sklearn import svm
+from sklearn import cross_validation
+
+
+class TestData:
+    data = []
+    target = []
+
+    def __init__(self):
+        self.data = []
+        self.target = []
+
 
 def total_words(text):
     exclude = set(string.punctuation)
@@ -56,13 +68,30 @@ def extract_features(path):
     return [feature1, feature2, feature5, feature6]
 
 
-grades = ['K-1', '2-3', '4-5', '6-8', '9-10', '11-CCR']
-path = r"C:\Users\IvanK\PycharmProjects\ReadAbility\DataSets\English\byGrade\\"
+def get_test_data():
+    grades = ['K-1', '2-3', '4-5', '6-8', '9-10', '11-CCR']
+    path = r"C:\Users\IvanK\PycharmProjects\ReadAbility\DataSets\English\byGrade\\"
 
-for grade in grades:
-    pathToGrade = path + grade + '\\'
-    for filename in os.listdir(pathToGrade):
-        features = extract_features(pathToGrade + filename)
-        for feature in features:
-            print str(feature) + ", ",
-        print grade
+    test_data = TestData()
+
+    for grade in grades:
+        path_to_grade = path + grade + '\\'
+        for filename in os.listdir(path_to_grade):
+            features = extract_features(path_to_grade + filename)
+            arr = []
+            for feature in features:
+                arr.append(feature)
+            test_data.data.append(arr)
+            arr = []
+            test_data.target.append(grade)
+    return test_data
+
+
+def classification():
+    test_data = get_test_data()
+    clf = svm.SVC(kernel='linear', C=1)
+    scores = cross_validation.cross_val_score(clf, test_data.data, test_data.target, cv = 5)
+    print scores
+
+
+classification()
