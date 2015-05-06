@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">Березовый лес. Листья вверху. Листья внизу. Они светят и утром, и днем, и в потемках. Сегодня солнце тусклее и ниже, но оно еще бодрит. Хорошо под его лучами!На склоне старого леса в мохнатых розовых шляпках стоят вол­нушки. Собирай!Под косогором сквозь зелень кустов синеет вода. Над речкой в за­рослях острой травы раздается испуганный всплеск. Вот над березо­вой рощей взмыло стадо гусей. Белокрылые, рослые, они поднимают­ся в глубину сквозного синего неба. Улетают на целую осень. На целую зиму. До свидания, гуси! Мы будем вас ждать вместе с талой водой на реке.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>15</start>
+            <end>21</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>30</start>
+            <end>36</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

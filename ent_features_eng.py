@@ -56,12 +56,12 @@ def extract_features(path):
 
 
 def get_test_data():
-    # grades = ['K-1', '4-5', '9-10']
+    grades = ['K-1', '4-5', '9-10']
     # grades = ['2-3', '6-8', '11-CCR']
-    grades = ['1', '2', '3']
     # grades = ['K-1', '2-3', '4-5', '6-8', '9-10', '11-CCR']
     path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/temp/"
-    features_file = open('features.txt', 'w+')
+    path_to_features = "/Users/Ivan/PycharmProject/ReadAbility/features/ent_features_eng.txt"
+    features_file = open(path_to_features, 'w+')
 
     for grade in grades:
         path_to_grade = path + grade + "/"

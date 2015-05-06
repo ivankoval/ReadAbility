@@ -1,0 +1,216 @@
+<NLP-document>
+    <text id="0">На горячем песке возле реки играют мальчики. Они возводят замок. Около них крутится веселый щенок.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>0</start>
+            <end>2</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">PR</pos-tag>
+                <characters class="java.util.ArrayList"/>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>3</start>
+            <end>10</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">A</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Case">Prepositional</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Gender">Neuter</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Singular</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>11</start>
+            <end>16</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">S</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Case">Prepositional</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Gender">Masculine</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Singular</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>17</start>
+            <end>22</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">PR</pos-tag>
+                <characters class="java.util.ArrayList"/>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>23</start>
+            <end>27</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">S</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Case">Genitive</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Gender">Feminine</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Singular</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>28</start>
+            <end>34</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">V</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Mode">Indicative</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Plural</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Person">Third</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Tense">NotPast</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>35</start>
+            <end>43</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">S</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Case">Nominative</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Gender">Masculine</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Plural</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>43</start>
+            <end>44</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">PUNCT</pos-tag>
+                <characters class="java.util.ArrayList"/>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>45</start>
+            <end>48</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">S</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Case">Nominative</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Plural</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>49</start>
+            <end>57</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">V</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Mode">Indicative</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Plural</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Person">Third</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Tense">NotPast</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>58</start>
+            <end>63</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">S</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Case">Accusative</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Gender">Masculine</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Singular</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>63</start>
+            <end>64</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">PUNCT</pos-tag>
+                <characters class="java.util.ArrayList"/>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>65</start>
+            <end>70</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">PR</pos-tag>
+                <characters class="java.util.ArrayList"/>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>71</start>
+            <end>74</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">S</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Case">Genitive</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Plural</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>75</start>
+            <end>83</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">V</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Mode">Indicative</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Singular</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Person">Third</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Tense">NotPast</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>84</start>
+            <end>91</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">A</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Case">Nominative</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Gender">Masculine</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Singular</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>92</start>
+            <end>97</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">S</pos-tag>
+                <characters class="java.util.ArrayList">
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Case">Nominative</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Gender">Masculine</I-morph-character>
+                    <I-morph-character class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.characters.Number">Singular</I-morph-character>
+                </characters>
+            </value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.pos.POSToken">
+            <start>97</start>
+            <end>98</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.pos.morph.MorphProperties">
+                <pos-tag class="ru.ispras.texterra.core.nlp.datamodel.pos.ruscorpora.RuscorporaPOSTag">PUNCT</pos-tag>
+                <characters class="java.util.ArrayList"/>
+            </value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

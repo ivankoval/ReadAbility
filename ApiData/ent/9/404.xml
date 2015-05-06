@@ -1,0 +1,23 @@
+<NLP-document>
+    <text id="0">Литературная работа чрезвычайно индивидуальна. Лев Толстой не ездил в специальные командировки, но обладал гениальным душев­ным опытом, прожив сложнейшую жизнь. Иван Бунин исколесил половину мира, но лучшие вещи написаны им не о путешествиях, а о России, по которой он тосковал и которую чувствовал, помнил и знал превосходно. Если у писателя не было биографии, он не смо­жет создать ее искусственно, он может ее только пополнить. Между тем жизнь современного писателя настолько насыщенна, что необхо­димо лишь подробно осмысливать ее. Материал лежит везде. Ото­рванность от жизни — это не норма, а болезнь, и довольно редкая. Мне не совсем понятно, что значит ездить за сбором материала наме­ренно, задавшись целью написать роман или повесть. Как это мож­но — отобрать и выбрать живую жизнь, не являясь ее действующим лицом? Боюсь, что таким образом появляется опасность втиснуть не­объятное в железный корсет иллюстративности. Роман невозможно привезти из командировки. Роман задумывают и обдумывают задолго до того, как куплен билет на поезд. Ибо почти каждый писатель знает, о чем хочет писать, но порой не знает как.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>47</start>
+            <end>58</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>161</start>
+            <end>171</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>247</start>
+            <end>253</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

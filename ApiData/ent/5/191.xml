@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">Черемуха зацветает раньше других деревьев. На фоне еще тем­ного леса особенно нарядны пышные белые кисти ее цветов.Под черной корой у черемухи красно-коричневая древесина, как у самых ценных тропических деревьев.На Дальнем Востоке растет черемуха, у которой листья разной формы. Снизу округлые, выше овальные, на самом верху остроконеч­ные. И цветом своим листья этой черемухи удивляют. Весной бронзо­вые, летом зеленые, а осенью фиолетовые.Плоды дальневосточной черемухи крупные, сочные, но не съе­добные. Только для медведей лакомство. Медведь залезает на дерево, усаживается поудобнее и объедает ветку за веткой. Съест ягоды, сло­мает ветку и засунет ее под себя. Таких веток набирается много. Де­рево приобретает странный вид. Кажется, будто на нем свила гнездо диковинная птица.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>215</start>
+            <end>230</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_REGION</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>538</start>
+            <end>545</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ANIMAL</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

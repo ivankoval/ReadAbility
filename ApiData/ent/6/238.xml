@@ -1,0 +1,71 @@
+<NLP-document>
+    <text id="0">Вася любил ходить в школу. Когда он слушал учительницу или читал книги, то воображал в своем уме весь мир, которого он не знал и который был вдали от него. Нил, Египет, Испания и Дальний Вос­ток, Миссисипи, Енисей, тихий Дон и Амазонка, Аральское море, Москва, гора Арарат, остров Уединения в Ледовитом океане — все это волновало Васю и влекло к себе. Ему казалось, что все страны и все люди давно ожидают, когда он вырастет и придет к ним. Но он еще нигде не успел побывать. Родился он здесь же, где жил и сейчас. Был он только в колхозе, где находится школа, и на станции. Поэтому с тревогой и радостью он всматривался в лица людей, глядящих из окон пассажирских вагонов.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>161</start>
+            <end>167</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>169</start>
+            <end>176</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>179</start>
+            <end>194</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_REGION</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>196</start>
+            <end>205</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_STATE_PROVINCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>207</start>
+            <end>213</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_STATE_PROVINCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>221</start>
+            <end>224</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_RIVER</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>227</start>
+            <end>235</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_RIVER</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>237</start>
+            <end>251</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_LAKE_SEA_OCEAN</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>253</start>
+            <end>259</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>266</start>
+            <end>272</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_OTHER</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>374</start>
+            <end>380</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

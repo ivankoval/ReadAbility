@@ -35,12 +35,14 @@ def extract_features(path):
 
 
 def get_test_data():
+
     # grades = ['K-1', '4-5', '9-10']
     # grades = ['2-3', '6-8', '11-CCR']
     # grades = ['K-1', '2-3', '4-5', '6-8', '9-10', '11-CCR']
     # path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/byGrade/"
-    grades = ['1', '3', '4', '6', '8', '10', '11', '17']
-    path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/Russian/textsbygrade/"
+
+    grades = ['1', '3', '6', '9']
+    path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/Russian/dictant/"
 
     features_file = open('features_lm_rus.txt', 'w+')
 

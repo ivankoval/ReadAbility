@@ -1,0 +1,11 @@
+<NLP-document>
+    <text id="0">Наташа, торопливо одевшись, побежала на озеро. Солнце уже бросало последние косые лучи. Оно садилось за яблоневыми и вишневыми садиками, розоватыми полосами разбегаясь по веточкам яблонь и стволам сосен, которые росли рядом с домом. Вершины этих сосен горели ярким румянцем, точно радуясь теплым солнечным лучикам. Наташа хотела воспользоваться оставшимися до ужина минутами, чтобы вглядеться в солнечный закат, в движение теней от дома и деревьев парка.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>47</start>
+            <end>53</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

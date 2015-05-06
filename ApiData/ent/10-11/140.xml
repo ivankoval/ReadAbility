@@ -1,0 +1,29 @@
+<NLP-document>
+    <text id="0">Через полчаса Метелица был под самым селом. Тропинка отвернула вправо, но он но совету пастушонка продолжал идти но скошенному лугу, пока не натолкнулся на огороды, дальше пошел задами. Село уже спало, огни потухли, чуть видны были при свете звезд теплые соломенные крыши хатенок в садах, пустых и тихих, с огородов шел запах вскопанной сырой земли.Метелица, миновав два переулка, свернул в третий. Собаки провожали его неверным хриплым лаем, точно напуганные сами, но никто не вышел на улицу, не окликнул его. Чувствовалось, что здесь привыкли к тому, что незнакомые, чужие люди бродят по улицам, делают, что хотят. Не видно было даже обычных в осеннее время, когда по деревням справляют свадьбы, шушукающихся парочек, в густой тени, под плетнями, никто не шептал о любви в эту осень.Руководствуясь приметами, которые дал ему пастушок, он прошел еще несколько переулков, кружа возле церкви, и наконец уперся в крашеный забор поповского сада. Метелица заглянул внутрь, пошарил глазами, прислушался и, не найдя ничего подозрительного, бесшумно перемахнул через забор.Сад был пустой и ветвистый, но листья уже опали. Метелица, сдерживая могучий трепет сердца, почти не дыша, пробирался вглубь. Кусты вдруг оборвались, пересеченные аллеей, и саженях и двадцати налево от себя он увидел освещенное окно, Оно было открыто Там сидели люди. Ровный,мягкий свет струился по опавшей листве, и яблони, отсвеченные по краям, стояли в нем, странные и золотые…«Вот оно!» — думал Метелица, нервно дрогнув щекой, и вспыхнув, и загораясь весь тем жутким, неотвратимым чувством бесстрашного отчаяния, которое толкало его обычно на самые безрассудные подвиги.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>14</start>
+            <end>22</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>943</start>
+            <end>951</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1115</start>
+            <end>1123</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1465</start>
+            <end>1473</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

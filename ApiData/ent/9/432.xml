@@ -1,0 +1,41 @@
+<NLP-document>
+    <text id="0">Белые дома с колоннами в тенистой чаще деревьев; сонные, пах­нущие тиной пруды с белыми силуэтами лебедей, бороздящих лет­нюю воду; старые нянюшки, снимающие пенки с варенья; жирные моськи, ворчащие от сахара и злости; Митька-казачок, таскающий длинные чубуки для раскуривания гостям; петухи, кричащие на за­дворках; мычащие коровы; блеющие овцы; бранящиеся хозяева- помещики; бабушки в чепцах, никому не нужные, штопающие чулки; старые лакеи; босоногие девчонки, сенные девушки; крепостные ак­трисы, живописцы, музыканты, борзые псы, карлики, крепостные ас­трономы. Внутри, в комнатах, — чинные комфортабельные стулья и кресла, приветливые круглые столы, развалистые бесконечные дива­ны, хрипящие часы с ржавым басистым боем, и люстры, и подсвечни­ки, и сонетки, и ширмы, и экраны, и трубки, трубки до бесконечности. Вот она крепостная Россия прошлого, от которой остались только до­машняя скотинка, старые нянюшки, хозяйская воркотня и быль и не­былица о крепостной жизни, о роскоши, о красоте быта, о чудачестве дедушек и бабушек. Вот страна «Евгения Онегина», потом «Мертвых душ», потом «Оскудения» Сергея Атавы. Вот помещичья Россия от Петра Великого и до Царя-Освободителя, полтора века особой жизни, культуры, которая была занесена из чуждой страны и которая сдела­лась родной и опять чуждой.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>837</start>
+            <end>843</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1045</start>
+            <end>1062</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">WORK_OF_ART</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1103</start>
+            <end>1115</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1131</start>
+            <end>1137</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1141</start>
+            <end>1155</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1249</start>
+            <end>1255</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

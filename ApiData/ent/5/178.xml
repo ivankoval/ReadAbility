@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">Куцый был высокий и тощий лис. Большие, острые уши, чуть раскосые глаза, а на морде всегда улыбка. У Куцего не было настоящего лисьего хвоста. Вместо пушистого хвоста у него был куцый обрубок.Принес его к нам в зоопарк охотник.На новом месте Куцый почувствовал себя как дома. Одна из лисиц хотела его укусить. Куцый ловко обернулся, схватил задиру за шиворот и задал ей трепку. После этого она и другие лисицы боялись к нему подойти.Ухаживал за лисицами дядя Леня. Когда он заходил в клетку, Куцый бросался к нему, вилял своим куцым обрубком и ласково заглядывал в лицо. Дядя Леня часто ласкал его. Лучший кусочек мяса перепадал Куцему чаще других лисиц.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>459</start>
+            <end>463</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>576</start>
+            <end>580</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

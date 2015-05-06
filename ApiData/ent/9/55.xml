@@ -1,0 +1,23 @@
+<NLP-document>
+    <text id="0">Северное сияние, или сполохи, как его называют живущие на севере люди, мне первый раз довелось увидеть много лет назад на берегу Онежского озера. Собираясь в пешеходное путешествие по лесному Заонежью, остановился в Повенце. Тогда это был маленький старинный городок.Ночью я вышел на улицу, и меня поразило ещё не виданное мною зрелище. В полнейшей тишине по звёздному небу колыхался широкий светящийся занавес. Он то сужался, то расширялся, то собирался в складки, то менял свой цвет. Я был очарован чудесным небесным зрелищем.Впоследствии мне много раз доводилось любоваться северным сиянием. Особенно памятна полярная ночь в Арктике, на далёком Шпицбергене, где я участвовал в экспедиции по спасению ледокола «Малыгин».Мне известны художники, пытающиеся изобразить в красках северное сияние, но запечатлеть его на картине довольно трудно. Сияние постоянно изменяет свой цвет, переливается, то падает лёгкой занавесью, то вытягивается длинной колеблющейся лентой, то принимает стрелообразные формы с вспыхивающими жёлтыми, красными, зелёными и фиолетовыми лучами.Я и теперь завидую людям, имеющим возможность любоваться северным сиянием.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>129</start>
+            <end>144</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_LAKE_SEA_OCEAN</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>628</start>
+            <end>635</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_REGION</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>648</start>
+            <end>659</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_REGION</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

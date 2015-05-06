@@ -1,0 +1,11 @@
+<NLP-document>
+    <text id="0">Жара заставила нас войти в рощу. Я бросился под высокий куст орешника, под которым молодой, стройный клен красиво растянул свои легкие ветки. Удивительно приятное занятие лежать на спине в лесу и глядеть вверх! Вам кажется, что вы смотрите в бездонное море, что деревья не поднимаются от земли, но спускаются отвесно. Листья на деревьях сквозят изумрудами. Подвижными островами ти­хо наплывают и тихо проходят белые круглые облака. Вдруг все за­струится, задрожит беглым блеском. И вы не двигаетесь. Вы гляди­те. И нельзя выразить, как радостно, тихо и сладко вдруг становится на сердце.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>318</start>
+            <end>324</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

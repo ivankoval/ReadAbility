@@ -1,0 +1,47 @@
+<NLP-document>
+    <text id="0">Одно из самых очаровательных воспоминаний детства — это наслаждение, которое я испытал, когда наша учительница пер­вых классов читала нам вслух на уроке «Капитанскую дочку».Это были счастливые минуты, их не так много, и потому мы бережно проносим их сквозь всю жизнь. Счастлив человек, которому повезло с первой учительницей. Мне повезло. Александра Ивановна, моя пер­вая учительница, любовь и благодарность к ней я пронес сквозь всю жизнь.Уже зрелым человеком я прочел записки Марины Цветаевой о Пушкине. Из них следует, что будущая мятежная поэтесса, читая «Капитанскую дочку», с таинственным наслаждением все время жда­ла появления Пугачева. У меня было совсем другое. Я с величайшим наслаждением все время ждал появления Савельича. Этот заячий ту­лупчик, эта доходящая до безрассудства любовь и преданность сво­ему Петруше. Невероятная трогательность. Разве Савельич раб? Да он на самом деле хозяин положения! Петруша беззащитен против всеох­ватывающей деспотической любви и преданности ему Савельича. Он беспомощен против нее, потому что он хороший человек и пони­мает, что деспотичность именно от любви и преданности ему.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>339</start>
+            <end>358</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>478</start>
+            <end>494</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>497</start>
+            <end>504</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>635</start>
+            <end>643</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>725</start>
+            <end>734</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>819</start>
+            <end>826</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>995</start>
+            <end>1004</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

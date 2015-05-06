@@ -1,0 +1,41 @@
+<NLP-document>
+    <text id="0">Песни каждого башмачника, которые он, сидя на скамеечке и по­могая работе, распевает часто с утра до вечера, резкой чертой разде­ляются на городские и деревенские, потому что все башмачники часть времени проводили в Москве и часть в деревне как сельские хозяева.Эти кочевья кустарей назывались походами — вероятно, потому, что до проведения железной дороги совершались пешком. Было три по­хода: зимний — от Рождества до начала весенних работ в деревне; летний — от Петрова дня; осенний — от конца уборки хлеба до Рож­дества. Мастера-башмачники, что работали в Москве походами, сели­лись — как ремесленники средних веков — на определенных улицах, в определенных районах: в Марьиной роще, за Спасской заставой, у Рогожского, у Симонова монастыря. Московские сезонные походы чередовались с деревенскими работами, поэтому и сложился у них необычный быт — сезонно мерный, как у перелетных птиц.Обращает па себя внимание резкая разница песен городских, большей частью революционных, и деревенских — старинных обря­довых, и удивительно, как это не смешивается, не вытесняет одно другое, и, кажется, даже наоборот: мастеровые-кустари, оторвавшись от деревни, бережно сохраняют древнюю обрядовую песню.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>214</start>
+            <end>222</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>558</start>
+            <end>566</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>690</start>
+            <end>707</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">FACILITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>711</start>
+            <end>721</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>725</start>
+            <end>743</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">FACILITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>745</start>
+            <end>755</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

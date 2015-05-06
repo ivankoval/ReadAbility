@@ -1,0 +1,23 @@
+<NLP-document>
+    <text id="0">Мы взяли ведёрки для грибов и отправились вслед за Володей в прогретый лес. Грибы попадались изредка, но мы проходили бы в те­чение всего дня, но нам помешал дождь. Вследствие того, что ушли недалеко от лагеря, мы успели добежать до палаток. Тяжёлая синяя туча в виде острого угла выдвинулась откуда-то из-за леса. Сразу ста­ло сумрачно и неуютно.С лёгким шорохом по траве, по воде прокатилась первая полоса дождя и затихла. Всё вокруг затихло и насторожилось. Вслед за тем опять ударил гром, рванул откуда-то ветер, и вдруг хлынуло так, что всё загудело под напором воды.В течение получаса продолжался ливень и вдруг совсем смолк. Мы несмело откинули полог палатки. Прямо от наших ног до бли­жайшего куста, окрашивая его в жёлтый цвет, в виде фонтана круто вверх взметнулась широкая радуга.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>21</start>
+            <end>27</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>51</start>
+            <end>58</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>76</start>
+            <end>81</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

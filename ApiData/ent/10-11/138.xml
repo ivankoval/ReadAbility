@@ -1,0 +1,47 @@
+<NLP-document>
+    <text id="0">Полковой командир в ту самую минуту, как он услыхал стрельбу и крик сзади, понял, что случилось что-то ужасное с его полком. Он желал одного: узнать, в чем дело, и помочь им исправить во что бы то ни стало ошибку, если она была с его стороны, и не быть виновным ему, двадцать два года служившему, ни в чем не замеченному офицеру.Счастливо проскакав между французами, он подскакал к полю, через которое бежали наши и, не слушаясь команды, спускались пол гору. Наступила та минута нравственного колебания, которая решает участь сражений: послушают эти расстроенные толпы солдат гопоса своего командира или, оглянувшись на него, побегут дальше. Несмотря на отчаянный крик прежде столь грозного для солдат полкового командира, несмотря на разъяренное, багровое, на себя непохожее лицо и маханье шпагой, солдаты все бежали, разговаривали, стреляли в воздух и не слушали команды. Нравственное колебание, решающее участь сражений, очевидно, разрешилось в пользу страха.Генерал закашлялся от крика и порохового дыма и остановился в отчаянии. Все, казалось, потеряно, но в ту минуту французы, наступавшие на наших, вдруг без видимой причины побежали назад, скрылись из опушки леса, и в лесу показались русские стрелки. Это была рота Тимохина, которая одна в лесу удержалась в порядке и, засев в канаву у леса, неожиданно атаковала французов. Тимохин с тихим отчаянным криком бросился на французов и с одной шпагой набежал на неприятеля. Французы, не успев опомниться, побросали оружие. Бегущие возвратились, батальоны собрались, и французы, разделившие было на две части войска левого фланга, на мгновение были оттеснены. Резервные части успели соединиться, и беглецы остановились.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>355</start>
+            <end>365</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1074</start>
+            <end>1082</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1193</start>
+            <end>1200</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1224</start>
+            <end>1232</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1333</start>
+            <end>1340</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1428</start>
+            <end>1436</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1522</start>
+            <end>1530</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">Было знойно и тихо, кусты над водой присмирели от жары.Вдруг земля даже под водой дрогнула от глухого близкого раската. Через минуту громыхнуло еще сильнее, но девушкам не верилось, что это гром: таким синим и спокойным было небо. Они поспешно выскочили на берег и быстро оделись. Валя с тревогой увидела, как потускнело небо над осинником. Из-за горизонта незаметно выплыла темно-синяя туча; серые крыши дальних деревень стали ярче и яснее. Воздух словно сгустился и стал жарче. Девушки, не сговариваясь, побежали к сену. Никто не успел ни поесть, ни попить чаю, ни передохнуть. На ходу прихватывая грабли, все бросились на луг.Скошенная на вчерашней заре трава гак высохла, что сено звенело под граблями. Накошено было не меньше как на два больших стога. Все разговоры словно ветром сдуло. Живее замелькали грабли, копны вырастали одна за другой как из-под земли.Пока метали первый стог, туча заволокла густой синевой половину горизонта. Солнце еще светило, но блеск молний был уже заметен, гром уже не урчал, а трещал, словно кто-то невидимый по швам распарывал громадную небесную шубу.«Не успеть вроде, — с тревогой проговорила Валя, — много еще загребать.»Туча росла теперь быстрее, еще тревожней зашелестели на опушке осины, все чаще набегал холодноватый, пока еще несильный ветер, стало еще темнее. Когда заложили второй стог и Валя взобралась на него, ударил такой раскат грома, что земля словно хрустнула.Скрылось за тучей солнце, и на пустоши стало жутко и тревожно. Побелели и вскинулись в одну сторону ивовые и березовые ветки, запахло ветром.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>281</start>
+            <end>285</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>940</start>
+            <end>946</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1132</start>
+            <end>1136</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1335</start>
+            <end>1339</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1432</start>
+            <end>1438</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

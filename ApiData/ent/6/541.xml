@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">Солнце косит огненный глаз, удлиняя тени. Ветер замер. Не дрогнет ни одна ветка. Покорно и незаметно умирает лес, погружённый в мудрый покой. Охотники, выспавшись, направляются к Чёртову Логовищу. Вокруг его на полверсты, а местами и больше, непролазная топь, кустарники ивняка, заросли ольховых деревьев. Оно неприступно. Один лишь Максимыч знает ход туда, к центру, где чистая поверхность воды и где, возвращаясь с ночной кормежки, садятся утки.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>0</start>
+            <end>6</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>179</start>
+            <end>195</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

@@ -1,0 +1,11 @@
+<NLP-document>
+    <text id="0">Был теплый день. Катя и Юра идут в рощу. Кругом тишина. Вот большой пень. А там осы. Они гудели. Дети убежали домой.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>24</start>
+            <end>27</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

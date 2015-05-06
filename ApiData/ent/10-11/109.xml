@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">Это было летом, вскоре после войны. Я поехал на Кавказ и остановился дней на пять в приморском городе. Надо вам сказать, что я в этом городе родился и вырос, а потому нет ничего мудреного, что он казался мне необыкновенно уютным, теплым и красивым.Между прочим, в один из вечеров поехал я в небольшую рощицу, в которой когда-то, в забытое чумное время, в самом деле был карантин, а теперь живут дачники. Ехать к ней приходится от города версты четыре по хорошей мягкой дороге. Едешь и видишь слева голубое море, справа бесконечную хмурую степь. Сама рощица расположена на берегу моря. Отпустив своего извозчика, я вошел в знакомые ворота и первым делом направился по аллее к небольшой каменной беседке, которую любил в детстве. По моему мнению, эта круглая тяжелая беседка на неуклюжих колоннах была самым поэтическим уголком во всем городе. Она стояла на краю берега, над самой кручей, и с нее отлично было видно море.Я сел на скамью и, перегнувшись через перила, поглядел вниз. От беседки по крутому, почти  отвесному берегу мимо глиняных глыб и репейника бежала тропинка; там, где она кончалась, далеко внизу, у песчаного побережья, лениво пенились и нежно мурлыкали невысокие волны. Море было такое же величавое, бесконечное и неприветливое, как и семь лет назад, когда я уезжал из родного города в столицу. Вдали темнела полоска дыма — это шел пароход, и, кроме этой едва видимой и неподвижной полоски, ничто не оживляло монотонной картины моря И неба. Направо от беседки тянулись неровные глинистые берега.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>29</start>
+            <end>34</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">EVENT</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>48</start>
+            <end>54</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_REGION</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>430</start>
+            <end>436</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1294</start>
+            <end>1300</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1303</start>
+            <end>1310</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

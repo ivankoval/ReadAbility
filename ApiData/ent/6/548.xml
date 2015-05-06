@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">Отряд остановился на отдых. Все были в сборе, палатки поставили, развели костры, варили ужин.Вдруг какой-то сильный шум окружил нас. Что-то больно ударило меня в лицо, и я почувствовал посторонний предмет у себя на шее. Я быстро поднял руку и схватил нечто жесткое, колючее и испуганно сбросил на землю.Это оказался огромных размеров жук. Другого такого жука я смахнул с руки  и вдруг увидел ещё трёх у себя на рубашке. Некоторые жуки ползали около костра. Особенно страшными казались те, что летали и старались сесть на голову. Жуки долго ещё попадались на чьём-нибудь одеяле, на шинели,  у кого-нибудь в сумке.Никто из нас ничего не знал об этих жуках. Позднее я выяснил их название — гигантский усач.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>334</start>
+            <end>337</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ANIMAL</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>354</start>
+            <end>358</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ANIMAL</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>430</start>
+            <end>434</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ANIMAL</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>529</start>
+            <end>533</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ANIMAL</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>648</start>
+            <end>653</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ANIMAL</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

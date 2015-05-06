@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">Солнце и ветер. Весенний свет. Синицы и клесты поют брачным голосом. Корка наста от лыжи, как стекло, со звоном разлетается. Мелкий березняк на фоне темного бора в лучах солнца становится ро­зовым. Солнечный луч на железной крыше создает нечто вроде гор­ного ледника, из-под которого струится вода рекой. Все шире и шире темнеет между ледником и краем крыши полоса нагретого железа. Тоненькая струйка с теплой крыши попадает на холодную сосульку, висящую в тени на морозе. Вода, коснувшись сосульки, замерзает. Так сосулька утром сверху растет в толщину. Когда солнце, обогнув крышу, заглянуло на сосульку, мороз исчез, и поток из ледника сбе­жал по ней и стал падать золотыми каплями вниз.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>0</start>
+            <end>6</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>561</start>
+            <end>567</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

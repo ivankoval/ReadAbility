@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">Известная всему миру галерея, в которой представлены произве­дения выдающихся художников России, носит имя Павла Михайло­вича Третьякова.Богатый, хорошо образованный купец решил употребить свое бо­гатство на пользу народа. «Во всех европейских странах есть богатые музеи, где собраны творения лучших художников этих стран, — го­ворил он. — Пора и нам иметь такой же».Две картины, которые были куплены в 1856 году, положили нача­ло этому замечательному собранию. Третьяков тщательно подбирал свою коллекцию. Когда он появлялся на открытии какой-нибудь вы­ставки, казалось, что он лишь прислушивается к тому, о чем говорят другие. Но художники поражались его метким замечаниям, верным оценкам картин. Если картина нравилась Третьякову, он ее тут же приобретал и уже никому не уступал.Сначала для осмотра галереи требовалось разрешение самого Треть­якова. Когда он подарил ее городу Москве, вход был открыт для всех.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>89</start>
+            <end>95</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>107</start>
+            <end>136</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>340</start>
+            <end>344</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>840</start>
+            <end>851</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>880</start>
+            <end>886</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

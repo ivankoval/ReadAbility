@@ -1,0 +1,41 @@
+<NLP-document>
+    <text id="0">Тропинка обогнула куст орешника, и лес сразу раздался в стороны. Посреди поляны в белых сверкающих одеждах, огромный и величественный, стоял дуб. Казалось, деревья почтительно расступились, чтобы дать старшему собрату развернуться во всей силе. Его нижние ветви шатром раскинулись над поляной. Снег набился в глубокие морщины коры, и толстый, в три обхвата, ствол казался прошитым серебряными нитями. Листва, усохнув по осени, почти не облетела, и дуб до самой вершины был покрыт листьями в снежных чехольчиках.Анна Васильевна робко шагнула к дубу, и великодушный могучий страж леса качнул ей навстречу ветвью.«Анна Васильевна, поглядите,» — сказал Савушкин и с усилием отвалил глыбу снега с прилипшей снизу землей, с останками гнилых трав. Там, в ямке, лежал шарик, обернутый сопревшими листьями. Сквозь листья торчали острые наконечники игл, и Анна Васильевна догадалась, что это еж.Мальчик продолжал водить учительницу по своему мирку. Подножие дуба приютило еще многих постояльцев: жуков, ящериц. козявок. Отощавшие, они в непробудном сне перемогали зиму. Сильное, переполненное жизнью дерево скопило вокруг себя столько живого тепла, что бедное зверье не могло бы сыскать себе лучшей квартирыОтойдя далеко, Анна Васильевна в последний раз оглянулась на дуб, бело-розовый в закатных лучах, и увидела у его подножия небольшую темную фигурку: Савушкин не ушел, он издали охранял свою учительницу. И Анна Васильевна вдруг поняла, что самым удивительным в этом лесу был не зимний дуб, а маленький человек в разношенных валенках, чиненой одежде, сын погибшего за родину солдату, чудесный гражданин будущего.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>649</start>
+            <end>657</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>846</start>
+            <end>861</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>986</start>
+            <end>991</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ANIMAL</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1212</start>
+            <end>1227</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1345</start>
+            <end>1353</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1401</start>
+            <end>1416</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

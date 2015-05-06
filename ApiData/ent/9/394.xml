@@ -1,0 +1,47 @@
+<NLP-document>
+    <text id="0">Всю жизнь Ломоносов работал на пределе, как теперь сказали бы, «на износ». В Москву приехал, не имея в городе ни единого знакомо­го, спал зимой на возу с рыбой, голодал, потому что денег не было вовсе. Потом, когда начал учиться, просиживал за книгами не часы — сутки. Экономил на всем. Ведь все его «жалованье» во время уче­бы — три копейки в день, а богатый отец решил, что возьмет его из­мором: денег не посылал и настоятельно требовал его возвращения домой. Недоедал в молодости постоянно. Летом 1743 года (за два года до избрания академиком!) писал в Академию наук, что «пришел в крайнюю скудость»: «Нахожусь болен, и при том, не токмо лекарство, но и дневной пищи себе купить на что не имею, и денег взаймы дос­тать не могу». И это при том, что перечень трудов Ломоносова в эн­циклопедическом словаре велик!И правдивее, точнее всех сказал о нем А.С. Пушкин: «Ломоносов был великий человек. Между Петром I и Екатериною II он один явля­ется самобытным сподвижником просвещения. Он создал первый университет, он, лучше сказать, сам был первым нашим университе­том».</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>10</start>
+            <end>19</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>77</start>
+            <end>83</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>556</start>
+            <end>569</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ORGANIZATION_OTHER</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>767</start>
+            <end>777</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>856</start>
+            <end>862</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>902</start>
+            <end>910</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>913</start>
+            <end>926</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

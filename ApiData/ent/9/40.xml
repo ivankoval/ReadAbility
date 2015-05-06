@@ -1,0 +1,23 @@
+<NLP-document>
+    <text id="0">Зимой одна тысяча восемьсот девяносто восьмого года Шишкин оканчивает последнюю свою картину — «Корабельная роща». Это одно из самых больших по размеру, самых величественных по замыслу, самых сильных чувством и самых совершенных его творений.Кажется, до самого неба поднимаются могучие сосны. Недаром Шишкин так их написал, чтобы вершины деревьев не уместились на холсте. Такие отборные, стройные сосны шли на строительство кораблей. А рядом с могучими великанами тянутся кверху тонкие, молодые сосёнки — зелёная семья.Деревья ярко освещены солнцем. Солнечный свет словно омывает крепкие золотистые стволы. А справа деревья теснятся, набегают одно на другое, сливаются в густую зелёную чащобу. И мы понимаем, как обширны просторы этого леса.Из глубины рощи течёт мелкий ручей. Сквозь прозрачную ноду желтеет песчаное дно.Разлапистые ветви, хвоя, яркая, и тёплая на свету и мрачная в тени, прозрачная вода, серый камень, зелёная трава, подмытый берег, выбравшиеся из-под земли наружу кривые корни — всё замечает взгляд живописца. Но при этом художник помнит о главном, а главное на картине — лес. Стройные, сильные стволы, чуть ли не до самого неба.«Картина заиграла, нота сильная, чудесная…» — восторженно отозвались, увидев картину, современники Шишкина.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>52</start>
+            <end>58</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>301</start>
+            <end>307</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1247</start>
+            <end>1254</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

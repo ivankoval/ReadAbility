@@ -1,0 +1,41 @@
+<NLP-document>
+    <text id="0">Если бы природа могла чувствовать благодарность к человеку за то, что он проник в ее жизнь и воспел ее, то прежде всего эта благо­дарность выпала бы на долю Михаила Пришвина.Михаил Михайлович Пришвин — это было имя для города, а в тех местах, где Пришвин чувствовал себя дома, звали его просто «Михалычем». И, очевидно огорчались, когда этот человек исчезал в городах, где только ласточки, гнездившиеся под железными крыша­ми, напоминали ему об его «журавлиной родине».Жизнь Пришвина — пример того, как человек отрешился от всего наносного, навязанного ему средой, и начал жить только «по велению сердца». Неизвестно, что сделал бы в своей жизни Пришвин, если бы он остался агрономом (это была его первая профессия). Он вряд ли открыл бы миллионам людей русскую природу как мир тон­чайшей и светлой поэзии. На это у него просто не хватило бы времени.Если внимательно прочесть все написанное Пришвиным, то остается убеждение, что он не успел рассказать нам и сотой доли того, что превосходно знал и видел.Пришвин происходил из старинного русского города Ельца. Из этих же мест вышел и Бунин, точно так же, как и Пришвин, умевший наделять природу окраской человеческих дум и настроений.Чем это объяснить? Очевидно тем, что природа этих мест очень русская, очень простая и небогатая. В этом-то ее свойстве и лежит разгадка писательской зоркости Пришвина. На простоте яснее видна прелесть родной земли, острее делается взгляд и собраннее мысль.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>157</start>
+            <end>173</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>754</start>
+            <end>761</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1037</start>
+            <end>1045</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1053</start>
+            <end>1058</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1084</start>
+            <end>1089</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1245</start>
+            <end>1252</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

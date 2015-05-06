@@ -1,0 +1,53 @@
+<NLP-document>
+    <text id="0">В Пушкинском заповеднике три огромных парка: Михайлов­ский, Тригорский и Петровский. Все они отличаются друг от друга.Тригорский парк пропитан солнцем. Такое впечатление остаётся от него даже в пасмурные дни. Свет лежит золотыми полянами на весёлой траве, зелени лип, обрывах над Соротью и на скамье Евгения Онегина. Этот парк как будто создан для семейных праздников, дружеских бесед, для танцев при свечах под чёрными шатрами листьев. Он полон Пушкиным.Михайловский парк — приют отшельника. Это парк, где трудно веселиться. Он создан для одиночества и размышлений. Он немного угрюм со своими вековыми елями, высок, молчалив и незаметно переходит в пустынные леса.Главная прелесть Михайловского парка — в обрыве над Со- ротью и в домике Арины Родионовны. Домик так мал и трога­телен, что даже страшно подняться на его крыльцо.Петровский парк хорошо виден из Михайловского. Он чёрен, сыр, зарос лопухами, в него входишь, как в погреб. В лопухах пасутся стреноженные лошади. На вершинах тёмных деревьев гнездятся хриплые галки.Природу Пушкинского заповедника очень берегут. Когда понадобилось провести в заповедник электричество, то провода решили вести под землёй, чтобы не ставить столбов. Столбы сразу разрушили бы неповторимое очарование этих мест.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>2</start>
+            <end>12</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>73</start>
+            <end>83</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>300</start>
+            <end>315</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>446</start>
+            <end>454</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>682</start>
+            <end>701</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">FACILITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>738</start>
+            <end>754</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>859</start>
+            <end>873</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1034</start>
+            <end>1045</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

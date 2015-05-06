@@ -1,0 +1,53 @@
+<NLP-document>
+    <text id="0">Еще с раннего утра все небо обложили дождевые тучи; было тихо, не жарко и скучно, как бывает в серые пасмурные дни, когда над по­лем давно уже нависли тучи, ждешь дождя, а его нет.Ветеринарный врач Иван Иваныч и учитель гимназии Буркин уже утомились идти, и поле представлялось им бесконечным. Далеко впе­реди еле были видны ветряные мельницы села Мироносицкого, спра­ва тянулся и потом исчезал далеко за селом ряд холмов, и оба они знали, что это берег реки, там луга, зеленые ивы, усадьбы, и если стать на один из холмов, то оттуда видно такое же громадное поле, телеграф и поезд, который издали похож на ползущую гусеницу, а в ясную погоду оттуда бывает виден даже город. Теперь, в тихую пого­ду, когда вся природа казалась кроткой и задумчивой, Иван Иваныч и Буркин были проникнуты любовью к этому полю, и оба думали о том, как велика, как прекрасна эта страна.В прошлый раз, когда мы были в сарае у старосты Проко- фия, — сказал Буркин, — вы собирались рассказать какую-то исто­рию.Да, я хотел тогда рассказать про своего брата.Иван Иваныч протяжно вздохнул и закурил трубочку, чтобы на­чать рассказывать, но как раз в это время пошел дождь. И минут через пять лил уже сильный дождь, обложной, и трудно было предвидеть, когда он кончится. Иван Иваныч и Буркин остановились в раздумье; собаки, уже мокрые, стояли, поджав хвосты, и смотрели на них с умилением.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>198</start>
+            <end>209</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>229</start>
+            <end>235</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>348</start>
+            <end>361</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>749</start>
+            <end>760</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>763</start>
+            <end>769</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>934</start>
+            <end>940</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1244</start>
+            <end>1255</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1258</start>
+            <end>1264</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

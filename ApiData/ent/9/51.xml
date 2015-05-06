@@ -1,0 +1,29 @@
+<NLP-document>
+    <text id="0">Икебана – искусство создания цветочных композиций. В основу икебаны положен принцип изысканной простоты, достигаемый выявлением естественной красоты материала. Особого мастерства в составлении букетов достигли японцы. Японский мастер никогда не срежет охапку цветов, чтобы выбросить их через день. Скорее всего он воспользуется одним-единственным цветком. При этом он оттенит его красоту, не нарушит естественного равновесия каждой детали композиции. Нежным, благоухающим цветам он может противопоставить сухие ветки старого дерева, а роскошной вазе – разбитый кувшин. И такая аскетическая красота тоже может быть идеальной.Искусство икебаны символично. В нём воплощаются три начала: небо, земля и человек, а поэтому каждая из деталей должна наиболее полно передать философские раздумья человека о своём месте в мироздании и о смысле бытия. Символичен также выбор растений и цветов. Сосна и роза означают долголетие, бамбук – мир и процветание, хризантема и орхидея – радость, магнолия – духовную чистоту.Неповторимое разнообразие цветов, их чудесных красок и форм будят в человеке самые возвышенные чувства. Язык цветов – это язык мира, а человек, любующийся цветами становится чище и прекраснее.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>210</start>
+            <end>216</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>218</start>
+            <end>226</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>883</start>
+            <end>888</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PLANT</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>917</start>
+            <end>923</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PLANT</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

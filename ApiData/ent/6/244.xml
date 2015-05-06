@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">Мало-помалу деревья стали редеть, и Владимир выехал из лесу. Жадрина было не видать. Должно было около полуночи. Слезы брыз­нули из глаз его. Он поехал наудачу. Погода утихла, тучи расходи­лись. Перед ним лежала равнина, устланная белым волнистым ков­ром. Ночь была довольно ясна. Он увидел невдалеке деревушку, состоящую из четырех или пяти дворов. Владимир поехал к ней. У первой избушки он выпрыгнул из саней, подбежал к окну и стал сту­чаться. Через несколько минут деревянный ставень поднялся, и старик высунул свою седую бороду. «Что те надо?» — «Далеко ли Жадрино?» — «Жадрино-то далеко ли?» — «Да, да! Далеко ли?!» — «Недалече. Верст десяток будет». При сем ответе Владимир схватил себя за волосы и остался недвижим, как человек, приговоренный к смерти.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>36</start>
+            <end>44</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>61</start>
+            <end>68</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>350</start>
+            <end>358</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>563</start>
+            <end>570</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>673</start>
+            <end>681</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

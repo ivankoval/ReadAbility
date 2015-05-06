@@ -1,0 +1,47 @@
+<NLP-document>
+    <text id="0">На закате солнца высоко над городом, на каменной террасе одного из самых красивых зданий в Москве, здания, построенного около полутораста лет назад, находились двое: Воланд и Азазелло. Они не были видны снизу, с улицы, так как их закрывали от ненужных взоров балюстрада с гипсовыми вазами и гипсовыми цветами. Но им город был виден почти до самых краевВоланд сидел на складном табурете, одетый в черную свою сутану. Его длинная и широкая шпага было воткнута между двумя рассекшимися плитами террасы вертикально, так что получились солнечные часы. Тень шпаги медленно и неуклонно удлинялась, подползая к черным туфлям на ногах сатаны. Положив острый подбородок на кулак, скорчившись на табурете и поджав одну ногу пол себя, Воланд, не отрываясь, смотрел на необъятное сборище дворцов, гигантских домов и маленьких, обреченных на слом лачуг. Азазелло, расставшись со своим современным нарядом, одетый, как и Воланд, в черное, неподвижно стоял невдалеке от своего повелителя, так же, как и он, не спуская глаз с города.Эти двое находящиеся на террасе глядели, как в окнах, повернутых на запад, в верхних этажах громад зажигалось изломанное ослепительное солнце. Глаз Воланда горел так же, как одно из таких окон, хотя Воланд был спиной к закату.Но тут что-то заставило Воланда отвернуться от города и обратить свое внимание на круглую башню, которая была у него за спиной на крыше. Из стены ее вышел оборванный, выпачканный в глине мрачный человек в хитоне, в самодельных сандалиях, чернобородый.«Я к тебе,» — сказал вошедший, исподлобья недружелюбно г.іядя на Воланда.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>89</start>
+            <end>97</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>166</start>
+            <end>172</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>175</start>
+            <end>183</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>723</start>
+            <end>729</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>840</start>
+            <end>848</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>906</start>
+            <end>912</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1215</start>
+            <end>1221</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

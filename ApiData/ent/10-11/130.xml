@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">Ганин выехал около трех часов дня в открытой рубашке и футбольных трусиках, в резиновых башмаках на босу ногу. Ветер был в спину. Он ехал быстро, выбирая гладкие места между острых камешков на шоссе, и вспоминал, как проезжал мимо Машеньки в прошлом июле, когда еще не был с нею знаком.На пятнадцатой версте лопнула задняя шина, и он долго чинил ее, сидя на краю канавы. Над полями звенели жаворонки; прокатил в облаке пыли серый автомобиль с двумя офицерами в совиных очках. Покрепче надув починенную шину, он поехал дальше, чувствуя, что не рассчитал, опоздал уже на час. Свернув с шоссе, он поехал лесом,54 по тропе, указанной прохожим мужиком. Потом свернул опять, да неверно, поэтому долго колесил, раньше чем попал на правильную дорогу. Он отдохнул и поел в деревушке, а когда оставалось всего двенадцать верст, переехал острый камушек — шина свистнула и опять осела.Было уже темновато, когда он прикатил в дачный городок, где жила Машенька. Она ждала его у ворот парка, как было условлено, но уже не надеялась, что он приедет, так как ждала уже с шести часов. Увидя его, она от волнения оступилась, чуть не упала. На ней было белое платье, которого Ганин не знал. Бант исчез, и потому ее прелестная голова казалась меньше. В подобранных волосах синели васильки.В этот странный, осторожно темнеющий вечер в липовом сумраке широкого городского парка Ганин полюбил ее острее прежнего и разлюбил ее как будто навсегда.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>0</start>
+            <end>5</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>55</start>
+            <end>65</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GAME</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>938</start>
+            <end>946</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1156</start>
+            <end>1161</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1355</start>
+            <end>1360</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

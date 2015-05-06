@@ -1,0 +1,11 @@
+<NLP-document>
+    <text id="0">Грозовой ливень насытил землю водой, очистил воздух от пыли и гари. Промытое голубое небо широко улыбалось. Радостное солнце трепетало повсюду. Земля дышала свежим ароматом полыни и мяты. Прекрасно в такой ласковый день побегать по влажной прибрежной траве. Мы бродим по песчаному дну тёплой реки, плещемся в чистой воде и радуемся всему. А вокруг капает с деревьев, играет нежное солнышко. Поют зяблики, соловьи, дрозды. Хорошо!</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>144</start>
+            <end>149</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_OTHER</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

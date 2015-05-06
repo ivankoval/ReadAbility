@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">В продолжение дня Кусака металась по следам уехавших людей, наконец добежала до станции и, промокшая, грязная, вернулась об­ратно. Причём она проделала то, чего никто не видел. Она взошла на террасу и, приподнявшись на задние лапы, заглянула в стеклянную дверь и поскребла когтями. В комнатах было пусто, и никто не отве­тил Кусаке.Начался частый дождь, вследствие чего отовсюду стал надвигать­ся мрак осенней ночи. В течение нескольких секунд он заполнил пус­тую дачу, бесшумно выползал он из кустов и вместе с дождём лился с неприветливого неба. На террасе была снята парусина, в связи с чем она казалась страннно пустой. Свет долго ещё печально озарял следы грязных ног, но скоро уступил и он.Итак, когда уже не было сомнений, что наступила ночь, собака жалобно завыла. Звеняще отчаянной нотой ворвался вой в монотон­ный шум дождя. Прорезая тьму и замирая, пронёсся он над обнажён­ными полями.Впоследствии тому, кто слышал его, казалось, что стонет сама тёмная ночь. Очень хотелось в тепло, к яркому огню, к любящему сердцу.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>18</start>
+            <end>24</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>325</start>
+            <end>331</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

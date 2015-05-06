@@ -1,0 +1,41 @@
+<NLP-document>
+    <text id="0">В русской литературе страницы о детстве, написанные прозой, – это та же поэзия. А некоторые высказывания писателей о детстве стали крылатыми, то есть употребляются так же часто, как народные пословицы. Например, слова Льва Николаевича Толстого: «Счастливая, счастливая, невозвратимая пора детства…». Эти слова не только обобщают представление о том, каким должно быть детство. Они выражают грусть взрослых о невозможности вернуть, повторить эту прелестную пору в жизни человека.Толстой писал для детей доходчиво и увлекательно, такими простыми словами, которые даются только большому писателю.Так же сочувственно и любовно, как Толстой, относился к детям Иван Сергеевич Тургенев. Правда, он не писал специально для детей. Но творчество Тургенева так слито с природой родного края, с красотой народной души, что вполне доступно детям разного возраста. Если бы не было у писателя других произведений, кроме «Записок охотника», одна эта книга на­вечно вписала бы его имя в историю русской литературы.Добрая традиция писать для детей, отдавать им свой талант, раскрывать для них все богатства земли никогда не иссякнет, как не иссякнет желание людей видеть детей счастливыми.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>2</start>
+            <end>9</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>218</start>
+            <end>243</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>628</start>
+            <end>635</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>655</start>
+            <end>678</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>736</start>
+            <end>745</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>978</start>
+            <end>985</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

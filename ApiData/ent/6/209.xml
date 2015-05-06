@@ -1,0 +1,23 @@
+<NLP-document>
+    <text id="0">Бабочки — одни из самых красивых живых существ на Земле. Они похожи на ожившие цветы. Причудливость и яркость окраски их крыльев поистине сказочная. А какие они разные! Не случайно кроме общего названия есть у бабочек и свои имена. Одних бабочек назвали в честь греческих богов и героев. Вот, например, бабочка по имени пси­хея. Психея была царской дочерью и славилась необыкновенной красо­той. Бабочка, которую назвали психеей, тоже необыкновенно красива. А Цирцеей, есть и такая бабочка, в греческой мифологии звали пре­красную, но коварную волшебницу. Она обратила в свиней спутников Одиссея, а его самого целый год удерживала на острове. Крупную дневную бабочку назвали аполлоном в честь бога солнца Аполлона.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>50</start>
+            <end>55</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_OTHER</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>459</start>
+            <end>466</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>704</start>
+            <end>712</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

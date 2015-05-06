@@ -1,0 +1,23 @@
+<NLP-document>
+    <text id="0">Светлый июньский день. Стоит та прекрасная погода, когда после бурно прошумевшей весны, вступает в свои права лето. Земля, ещё полная весенних соков, дышит уже по-летнему. Травы, листья деревьев потемнели, огрубели и выгладились; весенние цветы: золотой чистяк, синие и белые подснежники, ветреницы – отцвели, исчезли, а на смену им взошли и полыхают яркие россыпи поздних цветов-смолёвок, белозеров, лютиков. Трепыхаются над травами летние бабочки; поют по-летнему птицы – спокойно и не так восторженно, как весной; воздух свеж, влажен и ароматен; тепло, но ещё не жарко.Еловый лес, где я иду, тёмен и мрачен. Тяжёлые мохнатые лапы елей плотно и низко прикрывают землю. Земля под елями голая, сырая, бестравная, лишь кое-где зеленеют на ней листочки вороньего глаза, копытня да кислицы. Под одной старой могучей елью я нахожу удобное место для отдыха, сгребаю большую кучу старой хвои и мягко сажусь в неё, как в подушку. Вокруг тихо, лишь тенькают одни птички. Пахнет смолой и грибами.Прекрасен в эту пору лес! Нигде, пожалуй, не найдёшь другого места, такого богатого и торжественного. Я люблю лес, умею разобраться в его таинственной жизни, полной прекрасных звуков, шумов, запахов и песен. В лесу не однообразно и не глухо – он каждый день дышит, шепчет, живёт по-разному.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>116</start>
+            <end>121</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_OTHER</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>671</start>
+            <end>676</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_OTHER</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>979</start>
+            <end>986</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

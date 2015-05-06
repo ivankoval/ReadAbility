@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">«Сказ о тульском косом левше и о стальной блохе» принадлежит к шедеврам творчества Николая Семеновича Лескова.Долгое время среди литераторов и широкой публики бытовало мнение, будто Лесков всего лишь обработал народное сказание. Это­му заблуждению способствовал сам Лесков, давший рассказу при первопечатании подзаголовок «Цеховая легенда…» А по прошествии известного времени Лесков открыл карты: «Все, что есть чисто на­родного в «Сказке о тульском левше и о стальной блохе», заключает­ся в следующей шутке или прибаутке: «англичане из стали блоху сде­лали, а наши туляки ее подковали да им назад отослали». Более ниче­го нет о «блохе», а о «левше» как о герое всей истории и выразителе русского народа нет никаких народных сказов… Я весь этот рассказ сочинил…»</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>83</start>
+            <end>109</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>182</start>
+            <end>188</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>266</start>
+            <end>272</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>376</start>
+            <end>382</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>688</start>
+            <end>696</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

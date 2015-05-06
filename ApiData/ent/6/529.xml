@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">Ноябрь – предзимний месяц. Он соединяет глубокую осень с зимой.Ноябрь – начало ненастий. Еще моросят по России затяжные дожди, но уже время от времени кружится в воздухе белый снежок.Снег пятнами ложится в долине, украшает деревья, кусты на берегах речонок, на склонах оврагов.На окраине деревни пируют дрозды. Они приютились на рябине и перелетают с ветки на ветку, обирают с нее спелые ягоды.Принялся за обновки заяц. Белеет зайчонок с ног, меняет шубку под цвет снега. Так его труднее заметить.Всё крепче забирает зима, всё чаще непогода. Крутится поземка, переползает через дороги, овраги, покрывает неровности земли. Дни прибавляются, а рассвет с сумерками в полдень встречаются. Природа замирает в ожидании зимы.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>104</start>
+            <end>110</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>622</start>
+            <end>625</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">TIME</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

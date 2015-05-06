@@ -1,0 +1,23 @@
+<NLP-document>
+    <text id="0">Дом стоял несколько в стороне. Окна его были покрашены масляной краской, а небольшое крылечко сбоку еще пахло сосной. Двери были раскрыты настежь, но хозяев в доме не оказалось. Направо от двери стоял некрашеный стол, слева виднелась массивная печь.Вскоре с улицы прибежала Наташа, встретившая меня так, как будто мы с ней были старые знакомые. Она радушно предложила мне чаю и ранней малины, но я попросил ее сначала показать мне сад, выращенный чуть ли не под самым Полярным кругом.Мы вышли из дома. Сад лепетал тополиной листвой. Перешагнув за калитку, я неожиданно увидел яблоньки, малинник, густо усыпанный кое-где уже поспевающей ягодой. Почувствовав смолистый аромат, я повернул голову налево и увидел кедры. Они были иссиня-черные, по-медвежьи угрюмы и неприветливы. Наташа ласково и как-то застенчиво потрепала одно дерево.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>274</start>
+            <end>280</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>468</start>
+            <end>483</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">TIME</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>775</start>
+            <end>781</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

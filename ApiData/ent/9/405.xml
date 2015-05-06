@@ -1,0 +1,29 @@
+<NLP-document>
+    <text id="0">«Бэла», заключая в себе интерес отдельной и оконченной повести, в то же время была только отрывком из большого сочинения, равно как и «Фаталист» и «Тамань»… Теперь они являются вместе с други­ми, с «Максим Максимычем», «Предисловием к журналу Печорина» и «Княжною Мери», под одним общим заглавием «Герой нашего вре­мени». Во всех повестях одна мысль, и эта мысль выражена в од­ном лице, которое есть герой всех рассказов. В «Бэле» он является каким-то таинственным лицом, как будто бы показывается под вы­мышленным именем, чтобы его не узнали. И вот автор тотчас показы­вает вам его при свидетелях — с Максим Максимычем, который рас­сказал ему повесть о Бэле. Но ваше любопытство не удовлетворено, а только еще больше раздражено. Наконец в руках автора журнал Пе­чорина. В высшей степени поэтичном рассказе «Тамань» герой рома­на является автобиографом, но загадка от этого становится только за­манчивее, и отгадка еще не тут. Наконец вы переходите к «Княжне Мери», и туман рассеивается… Основная идея романа, как горькое чувство, пристает к вам и преследует вас. Вы читаете наконец «Фата­листа», и хотя в этом рассказе Печорин является не героем, а только рассказчиком случая… Странное дело! Вы еще более понимаете его, более думаете о нем, и ваши чувства еще грустнее и грустнее.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>198</start>
+            <end>217</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PRODUCT</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>243</start>
+            <end>251</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>602</start>
+            <end>619</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>760</start>
+            <end>769</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

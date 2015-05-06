@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">Щербакова сидела в коляске, закрыв глаза, закутав голову, и, что­бы ее не тревожили, сослалась на нездоровье.После разлуки с Лермонтовым она не могла смотреть ни на степь, ни на людей, ни на попутные села и города. Они вырывали у нее вос­поминание о нем, тогда как все ее сердце принадлежало только ему, и она хотела, чтобы все, что не было связано с ним, не существовало на свете.Говорят, что любовь умирает в разлуке. Какая ложь! Только в разлуке бережешь, как драгоценность, каждую малость, если к ней прикасался любимый.Вот и сейчас к подножке коляски прилип листок тополя, на кото­рый наступил Лермонтов, когда, прощаясь с Щербаковой, вскочил на подножку.Щербакова смотрела на этот трепещущий от ветра жалкий лист и боялась, что его оторвет и унесет в поле. Лист оторвался и улетел только на третий день, когда из-за днепровских круч ударил в лицо грозовой ветер и молнии, обгоняя друг друга, начали бить в почер­невшую воду.Гроза волокла над землей грохочуший дым и ликовала, захлесты­вая поля потоками серой воды.Испуганные кони, которых кучер развернул к ближайшей дерев­не, скакали прижав уши, храпя, косясь на раскаты грома, обгонявшие коляску то справа, то слева.«Зачем я не бросила все, — подумала с тоской Щербакова, — и не поехала с ним на Кавказ?»Ничего не нужно сейчас — ни покоя, ни прочности в жизни. Только бы увидеть его, взять за руки, и знать, что он здесь, рядом, и что никакая сила в мире не сможет теперь оторвать их друг от друга.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>125</start>
+            <end>136</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>207</start>
+            <end>213</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>599</start>
+            <end>608</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>628</start>
+            <end>638</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1254</start>
+            <end>1260</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_REGION</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

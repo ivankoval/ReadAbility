@@ -1,0 +1,29 @@
+<NLP-document>
+    <text id="0">Кто не бывал в тайге Уссурийского края, тот не может себе представить, какая это чаща, какие это заросли. Буквально в нескольких шагах ничего нельзя увидеть. Вот именно по такой тайге мы и шли уже подряд в течение двух суток.Погода нам не благоприятствовала. Все время моросило, на дорожке стояли лужи, трава была мокрой. В лесу стояла удивительная тишина. Даже дятлы и те куда-то исчезли.Обеспокоенный тем, что вьюков нет долго, и опасаясь, что с лошадьми могло что-нибудь случиться, я вместе с Дерсу пошел назад. Он шел впереди, как всегда, качал головой и рассуждал вслух сам с собой…Вдруг он остановился, затем попятился назад и, нагнувшись к земле, стал рассматривать что-то у себя под ногами. Я подошел к нему.Совершенно свежие отпечатки большой кошачьей лапы отчетливо виднелись на грязной тропинке. Когда мы шли сюда, следов на дорожке не было. Я это отлично помнил, да и Дерсу не мог бы пройти мимо них. Теперь же, когда мы повернули назад и иошли навстречу отряду, появились следы; они направлялись в нашу сторону. Очевидно, зверь все время шел за нами по пятам.Несмотря на то, что кругом всюду были лужи, вода еще не успела наполнить следы, вдавленные лапой тигра. Не было сомнения, что страшный хищник только что стоял здесь и затем, когда услышал наши шаги, бросился в чащу и спрятался где-нибудь за буреломом.Несколько минут мы простояли на одном месте в надежде, что какой-нибудь шорох выдаст присутствие тигра, но тишина была гробовая. Эта тишина была какой-то особенно таинственной, страшной.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>496</start>
+            <end>501</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>880</start>
+            <end>885</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1169</start>
+            <end>1174</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ANIMAL</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1420</start>
+            <end>1425</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ANIMAL</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

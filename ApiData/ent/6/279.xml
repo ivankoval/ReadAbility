@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">В Михайловском парке всё сохранилось с пушкинских времён. И в этом неповторимость сегодняшнего заповедного места.В центре усадьбы растут густые кусты шиповника, жасмина, си­рени, дикого винограда. За ними хорошо ухаживают, и они разрос­лись и радуют взоры посетителей, почти в каждом из них летом жи­вут и гнездятся птицы.В период одинокой жизни в Михайловском Пушкин не мог не видеть и не слышать того, что видим и слышим мы. Он слышал, как поют горлица, дрозд, скворец, ласточка.Птиц Пушкин любил. Целыми днями он пропадал в тенистом лесу, внимал птичьим пересвистам и наблюдал за их жизнью.Вот почему и теперь в Михайловском всюду птицы. Они добры и доверчивы к тем людям, для которых Пушкин и всё пушкинское свя­щенно и неприкосновенно.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>2</start>
+            <end>24</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">FACILITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>348</start>
+            <end>367</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">FACILITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>486</start>
+            <end>492</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>615</start>
+            <end>639</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">FACILITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>688</start>
+            <end>694</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

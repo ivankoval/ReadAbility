@@ -1,0 +1,41 @@
+<NLP-document>
+    <text id="0">В небе то и дело вспыхивали нити, небо лопалось, и комнату больного заливало трепетным и пугающим светом. Исписанные Иваном листки, сдутые влетевшим в комнату ветром, валялись на полу.К тому времени, как появилась издалека пугающая туча с дымящимися краями и накрыла бор и дунул ветер, Иван почувствовал, что обессилел, и, поняв, что с заявлением ему не совладать, он не стал поднимать разлетевшихся листков и горько и тихо заплакал. Добродушная фельдшерица Прасковья Федоровна навестила поэта во время грозы, встревожилась, видя, что он плачет, закрыла штору, чтобы молнии не пугали больного, листки подняла с пола и с ними побежала за врачом.Тот явился, сделал укол в руку Ивану и уверил его, что он больше плакать не будет, что теперь все пройдет, все изменится и все забудется.Врач оказался прав, Вскоре заречный бор стал прежним. Он вырисовывался до последнего дерева под небом, расчистившимся до прежней полной голубизны, а река успокоилась. Тоска начала покидать Ивана тотчас после укола, и теперь поэт лежал спокойно и глядел на радугу, раскинувшуюся по небу.Так продолжалось до вечера, и он даже не заметил, как радуга растаяла и как загрустило и полиняло небо, как почернел бор.Дом скорби засыпал. В тихих коридорах потухли матовые белые лампы, и вместо них здесь зажглись слабые голубые ночники, все реже и реже за дверями слышались осторожные шажки фельдшериц.Теперь Иван лежал в сладкой истоме, поглядывал то на лампочку, льющую с потолка смягченный свет, то на луну, выходящую из черного бора, и беседовал сам с собой.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>286</start>
+            <end>290</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>458</start>
+            <end>477</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>675</start>
+            <end>680</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>970</start>
+            <end>975</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1379</start>
+            <end>1383</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1475</start>
+            <end>1479</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_OTHER</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

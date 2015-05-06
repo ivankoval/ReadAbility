@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">Вершины высоких гор покрыты снегом и льдом. На горном леднике много «стаканов». Что это такое? «Стакан» образуется от небольшого камня, лежащего на гладкой поверхности. Солнце прогревает камешек лучше, чем окружающий снег. Лёд под камнем начинает постепенно таять, и образуется голубоватое углубление во льду, наполненное прозрачной ледниковой водой. Так много удивительного в природе!</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>169</start>
+            <end>175</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>223</start>
+            <end>226</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

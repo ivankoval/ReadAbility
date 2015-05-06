@@ -1,0 +1,41 @@
+<NLP-document>
+    <text id="0">В Крыму и на Кавказе у самого моря растут гордые и величест­венные кипарисы. Если надрезать ствол его, можно увидеть широкие сочные кольца, свидетели привольной жизни дерева из года в год. От красноватой раны потянет терпким запахом. В нём можно почувство­вать и лёгкий запах песка, наливающегося утренним солнцем, и тёп­лый аромат загорелых моряков, проспавших всю звёздную ночь на открытых кипарисовых палубах. Многое может напомнить знающему человеку это дерево.А у нас в России в лесу можно встретить дальнего родственника южного красавца — можжевельник. Это простой северный кустар­ник, покрытый дымчатыми голубыми ягодами. С виду он неказист, короткие колючие иглы его совсем непохожи на мягкую праздничную хвою кипариса. Но у простых людей этот кустарник вызывает самое тёплое внимание. Хозяйки промывают можжевеловыми мочалками кадушки, прежде чем солить в них грибы. Местные жители коптят на можжевеловом дыму мясо и рыбу. Сибирячки можжевеловым насто­ем умываются.В отличие от изнеженного южного родственника, можжевельник забирается далеко на север, растёт вблизи вечных снегов. А тончай­шие годичные кольца говорят о многолетнем мужестве этого скром­ного кустарника.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>2</start>
+            <end>7</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_REGION</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>13</start>
+            <end>20</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_REGION</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>473</start>
+            <end>481</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>869</start>
+            <end>874</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>919</start>
+            <end>923</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>926</start>
+            <end>930</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">ANIMAL</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

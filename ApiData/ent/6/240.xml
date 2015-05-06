@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">А не то вижу я себя в доме, и опять в летний вечер, и опять в оди­ночестве. Солнце скрылось за притихший сад, покинуло пустой зал, пустую гостиную, где оно радостно блистало весь день. Теперь толь­ко последний луч одиноко краснеет в углу на паркете, меж высоких ножек какого-то старинного столика. И, Боже, как мучительна его безмолвная и печальная прелесть! А поздним вечером, когда сад уже чернел за окнами всей своей таинственной ночной чернотой, а я ле­жал в темной спальне в своей детской кроватке, все глядела на меня в окно, с высоты какая-то тихая звезда… Что надо было ей от меня? Что она мне без слов говорила, куда звала, о чем напоминала?</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>76</start>
+            <end>82</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>301</start>
+            <end>305</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_CITY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

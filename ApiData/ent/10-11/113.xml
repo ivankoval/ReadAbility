@@ -1,0 +1,41 @@
+<NLP-document>
+    <text id="0">Просторный, заросший курчавой муравою двор правления был пустынен. Только возле конюшни соседские куры лениво копались в навозе, да под навесом сарая в глубокой старческой задумчивости неподвижно стоял козел, прозванный почему-то Трофимом. Увидев Давыдова, козел оживился, задорно тряхнул бородой и, потоптавшись на месте, скорой рысью устремился наперерез. На .полпути он склонил голову, воинственно поднял куцую метелку хвоста, перешел на галоп. Намерения его были так откровенны, что Давыдов, улыбаясь, остановился, приготовился встретить атаку бородатого драчуна.Давыдов, изловчившись, схватил козла за рубчатый кривой рог. «Ну, теперь пойдем в правление на расправу!» Трофим изъявил полное смирение. Подчиняясь Давыдову, покорно засеменил с ним рядом, изредка потряхивая головой, вежливо пытаясь высвободить рог. Но на первой ступеньке крыльца он вдруг решительно уперся, затормозив всеми ногами.Когда Давыдов остановился, Трофим доверчиво потянулся к нему, обнюхивая карман, потешно шевеля серыми губами.Давыдов стыдил его, укоризненно покачивая головой, стараясь придать голосу наибольшую выразительность:«Эх, Трофим, Трофим! Ведь ты уже старик, колхозный пенсионер, можно сказать, а глупости не бросаешь, кидаешься на всех в драку, а если не выйдет, начинаешь клянчить хлеба. Нехорошо так, даже стыдно, факт! Ну, что ты там унюхал?»Под кисетом и спичками Давыдов нащупал завалявшуюся в кармане черствую краюшку хлеба, тщательно счистил с нее присохшие крупинки табака и для чего-то понюхал сам, прежде чем протянуть на ладони скромное угощение. Козел, заискивающе и просительно склонив голову, смотрел на Давыдова старыми глазами и, презрительно фыркнув, с достоинством сошел с крыльца.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>247</start>
+            <end>255</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>487</start>
+            <end>494</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>716</start>
+            <end>724</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>907</start>
+            <end>914</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1363</start>
+            <end>1370</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1613</start>
+            <end>1621</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

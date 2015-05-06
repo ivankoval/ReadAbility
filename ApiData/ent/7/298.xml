@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">Вместо того чтобы сидеть на скучном уроке по арифметике, нам выпала удача копать картошку на школьном участке. Главное развле­чение наше состояло в том, чтобы на гибкий прут насадить тяжёлый шарик и бросить дальше.Я наклонился, чтобы слепить шарик потяжелее, но вдруг почувст­вовал сильный удар между лопаток. Это Витька Агафонов вместо то­го, чтобы бросить свой комок земли в небо, подкрался ко мне сзади и ударил меня комком, насаженным на прут.Насколько я помню, я никогда не плакал от физической боли. От неё можно кричать, орать, кататься по траве, чтобы было полегче, но не плакать. Зато легко навёртывались слёзы на мои глаза от неспра­ведливости.Ни один человек не заметил маленького происшествия. Все по- прежнему собирали картошку. Небо по-прежнему было голубое, а солнышко красное. Но я уже не видел ни картошки, ни солнца, ни не­ба. На душе черно от обиды, а в голове зародилась мысль отомстить Витьке, чтобы в другой раз было неповадно.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>314</start>
+            <end>329</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>907</start>
+            <end>913</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

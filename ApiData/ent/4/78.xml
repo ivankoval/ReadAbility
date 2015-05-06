@@ -1,0 +1,11 @@
+<NLP-document>
+    <text id="0">Поднялось солнце и осветило окрестности золотистым праздничным светом. Наступило ясное летнее утро. Зеленели пастбища, темный лес, белые крупне облака медленно проплывали по небесной синеве. Вдалеке блеснуло озеро, поросшее по берегам тростником. Узкая дорожка, обсаженная березками, взбегала на пригорок к усадьбе. Деревья сада скрывали широкую лестницу и дом с колоннами. Только край зеленой крыши и легкий аккуратный балкончик приветливо выглядывали, маня подъехавшего путешественника каким-то тихим уютом.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>316</start>
+            <end>323</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PLANT</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

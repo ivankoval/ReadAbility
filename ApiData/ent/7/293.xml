@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">Обоз расположился в стороне от деревни около реки. Солнце жгло по-вчерашнему, воздух был неподвижен и уныл. От жары было некуда деться. На берегу стояло несколько верб, но тень от них бес­полезно падала в воду. Вода в реке, голубеющая от отражающегося в ней неба, страстно манила к себе.Дымов и Кирюша быстро разделись и попадали с громким криком в воду. Тихо журчавшая речка огласилась фырканьем, плеском, кри­ком. Егорушка, разбежавшись, прыгнул с вышины в речку. Описав в воздухе дугу, он глубоко погрузился, но дна не достал. Какая-то сила подхватила его и понесла обратно наверх. Он нырнул, фыркая, пуская пузыри. Вскоре Егорушка подплыл к берегу и стал шарить около ка­мышовых кореньев.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>51</start>
+            <end>57</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>295</start>
+            <end>301</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

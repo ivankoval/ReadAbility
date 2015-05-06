@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">Лёд трогается аккуратно каждую весну, но ледоход всегда состав­ляет событие дня. Заслышав крик, вы стремительно бежите к мосту, как будто там совершается убийство или грабёж.Свесившись через перила, вы глядите на реку, и вдруг разочаро­вание! Вы ожидали треска и грохота, но ничего не слышите, кроме глухого, однозвучного шума, похожего на отдалённый гром. Вместо ломки, столкновений и дружного натиска вы видите безмятежно ле­жащие, неподвижные груды изломанного льда, наполняющего всю реку от берега до берега. Поверхность реки взрыта и взбудоражена. Воды не видно ни капли, а только лёд, лёд, лёд.Ледяные холмы стоят неподвижно, но у вас кружится голова. Ка­жется, что мост вместе с публикой куда-то уходит. Вот одна большая льдина, упёршись о бок, долго не пускает мост бежать от неё. Вид у льдин грустный, унылый. Они будто осознают, что их гонят из род­ных мест куда-то далеко в страшную Волгу. Там они, насмотревшись ужасов, превратятся в ничто.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>0</start>
+            <end>3</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>586</start>
+            <end>589</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>591</start>
+            <end>594</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>596</start>
+            <end>599</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>894</start>
+            <end>899</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_RIVER</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

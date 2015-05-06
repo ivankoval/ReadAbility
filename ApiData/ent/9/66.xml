@@ -1,0 +1,35 @@
+<NLP-document>
+    <text id="0">Янтарь — это окаменевшая смола хвойных и некоторых лиственных деревьев. На земле он зародился за несколько десятков миллионов лет до нашей эры. В те далёкие времена у Скандинавских гор был жаркий климат и густые субтропические и хвойные леса. Бури и ураганы, налетавшие с Балтийского моря, ломали ветви, валили и вырывали с корнями столетние деревья.В тихие дни под лучами палящего солнца в этом буреломе из деревьев выделялась смола. На месте погибших лесов вырастали новые. Так продолжалось на протяжении нескольких миллионов лет. Смола накапливалась, затвердевала и, смытая морскими прибоями в море, в течение долгого времени превращалась в янтарь.В природе янтарь бывает в виде мелких зёрен и крупных кусков, иногда достигающих нескольких килограммов. Он чрезвычайно лёгок, хрупок, легко поддаётся шлифовке и полировке. Некоторые народы приписывают этому камню лечебные свойства.«Янтарь» — слово русское. По своему звучанию оно близко к литовскому названию этого солнечного камня — «гинтарис». Встречается янтарь золотисто-жёлтого, апельсинового и светло- коричневого цвета. Янтарь бывает прозрачный, матовый и просвечивающийся. Последний ценится дороже первых. Самым дорогим считается янтарь с включёнными в него насекомыми.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>167</start>
+            <end>184</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_REGION</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>250</start>
+            <end>257</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">EVENT</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>272</start>
+            <end>288</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">LOCATION_LAKE_SEA_OCEAN</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>900</start>
+            <end>907</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">GPE_COUNTRY</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>941</start>
+            <end>951</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">NORP_NATIONALITY</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

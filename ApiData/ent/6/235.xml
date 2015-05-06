@@ -1,0 +1,17 @@
+<NLP-document>
+    <text id="0">Прошла осень. Мать сшила мне холщовую сумку, положила в нее кусок хлеба, и я пошел в школу. В школьном саду опали яблоневые листья, и на желтом крыльце стояла Синель. Мы запоздали к началу первого урока.Я впервые видел Синель такой нарядной. Она стояла в новых бо­тинках и голубой вязаной шапочке, с пестрым баульчиком в руках, и казалась мне незнакомой, чужой.Она не замечала меня, даже не взглянула в мою сторону. И я сно­ва испытал непонятную тоску и обиду. Я сдвинул свою сумку за спи­ну и боком вышел из сада.На третий день я снова пришел в школу. Старая учительница по­смотрела на меня ласково и посадила рядом с Синелью.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>159</start>
+            <end>165</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>219</start>
+            <end>225</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

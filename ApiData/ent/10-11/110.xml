@@ -1,0 +1,23 @@
+<NLP-document>
+    <text id="0">Понятно, что, зайдя в лес, я то и дело натыкался на следы грибов. Там валяется обрезанный корешок, там грибная стружка — очищали корень от земли, там изрезанная червивая шляпка, там, среди мха,беленькие ровные кружки от грибов, срезанных аккуратно и с толком. Впрочем, в первый раз зайдя в лес, я сразу же набрел на такое количество маслят, которые пренебрегались местными жителями, что за полчаса нарезал целую кошелку.На третий день все же решил и я по примеру ребятишек пренебречь всевозможным грибным плебейством и начать охоту за белыми. Но, как и нужно было ожидать, оставались мне теперь одни оборыши, по случайному недогляду уцелевшие, особо надежно спрятавшиеся за еловыми ли ветками, за сухим ли пнем, в густой ли граве. Тем дороже был каждый найденный гриб.Деревья лежали поперек ручья, образуя лавы разной высоты, а высохшие ветви деревьев то касались воды, то повисали в воздухе. Преодолев все это, я поднялся наверх, пошел забирать влево,  через поляны, зеленеющие крупными листьями ландыша.Как только кончились заросли ландыша и пошли среди негустого подлеска редкие толстые ели, так под первой же елью и встретил меня белый гриб. Он был в той поре, когда нельзя его назвать молодым, но и червивая старость еще не прикоснулась к нему.Но, нагнувшись за ним, я увидел сразу еще два, а потом еще три, а там еще и еще.Осенью часто находил я одни лишь ножки грибов со следами острых беличьих зубок. Значит, шляпка сгрызена, унесена, где-нибудь наколота на высокую ветку и там сушится впрок для зимнего голодного времени.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>58</start>
+            <end>64</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>220</start>
+            <end>226</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>1368</start>
+            <end>1374</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">SUBSTANCE</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

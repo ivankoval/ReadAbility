@@ -1,0 +1,23 @@
+<NLP-document>
+    <text id="0">В нашем небольшом доме живет удивительный зверь. Это черный кот с ярко-желтыми глазами и серебряными усами. Его шерсть чер­ная, как осенняя ночь, только на груди светится белоснежное пят­нышко. За важный и таинственный вид мы назвали его французским именем Луи. Мы нашли его на деревянной террасе, которая выходит в сад. Кот сидел в соломенном кресле и грелся на солнце.Каждый вечер кот исчезает, но к утреннему чаю всегда возвраща­ется. Он ждет нас на низком крылечке и слушает звуки, которые при­носит юго-восточный ветер. Мы наливаем Луи молока в глиняную миску, и кот благодарно мурлычет.Когда к нам приходят гости, Луи встречает их и как будто здоро­вается: «Здравствуйте, друзья, проходите в комнату, вас ждет лимон­ный пирог!»</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>257</start>
+            <end>261</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>537</start>
+            <end>547</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>620</start>
+            <end>636</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>

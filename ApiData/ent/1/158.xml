@@ -1,0 +1,11 @@
+<NLP-document>
+    <text id="0">Мы приехали на дачу. Папа наколол чурок, растопил печурку. Мама на чугунной сковородке испекла чудесные блинчики.</text>
+    <annotations class="java.util.ArrayList">
+        <I-annotation confidence="1.0" class="ru.ispras.texterra.core.nlp.datamodel.ne.NamedEntityToken">
+            <start>59</start>
+            <end>63</end>
+            <annotated-text reference="0"/>
+            <value class="ru.ispras.texterra.core.nlp.datamodel.ne.BBNNamedEntity">PERSON</value>
+        </I-annotation>
+    </annotations>
+</NLP-document>
