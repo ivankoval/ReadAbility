@@ -1,18 +1,10 @@
 # -*- coding: utf-8 -*-
 from __future__ import division
-import os
-import string
-import nltk
-import re
+from common_functions import get_words, total_sentences, prepare_dataset
+from pymongo import MongoClient
+
 const = r"bcdfghjklmnpqrstvwxyz"
 vow = r'aeiou'
-
-
-def total_words(text):
-    exclude = set(string.punctuation)
-    words = nltk.tokenize.word_tokenize(text)
-    words = [word for word in words if word not in exclude]
-    return words
 
 
 def count_syllables(s):
@@ -24,14 +16,9 @@ def count_syllables(s):
     return syl_count
 
 
-def total_sentences(text):
-    sent = nltk.sent_tokenize(text)
-    return len(sent)
-
-
 # average number of syllables per word
 def feature_one(text):
-    words = total_words(text)
+    words = get_words(text)
     syllables_sum = 0
     for word in words:
         syllables_sum += count_syllables(word)
@@ -40,7 +27,7 @@ def feature_one(text):
 
 # percentage of poly-syll. words per doc.
 def feature_two(text):
-    words = total_words(text)
+    words = get_words(text)
     poly_syllables_words = 0
     for word in words:
         if count_syllables(word) > 1:
@@ -50,7 +37,7 @@ def feature_two(text):
 
 # average number of poly-syll. words per sent.
 def feature_three(text):
-    words = total_words(text)
+    words = get_words(text)
     poly_syllables_words = 0
     for word in words:
         if count_syllables(word) > 1:
@@ -60,7 +47,7 @@ def feature_three(text):
 
 # average number of characters per word
 def feature_four(text):
-    words = total_words(text)
+    words = get_words(text)
     characters_sum = 0
     for word in words:
         characters_sum += len(word)
@@ -70,7 +57,7 @@ def feature_four(text):
 # Chall-Dale difficult words rate per doc.
 def feature_five(text):
     path_difficult_words = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/DaleChallEasyWordList.txt"
-    words = total_words(text)
+    words = get_words(text)
     difficult_words_sum = 0
 
     with open(path_difficult_words, 'r') as f:
@@ -84,12 +71,12 @@ def feature_five(text):
 
 # average number of words per sentence
 def feature_six(text):
-    return len(total_words(text))/total_sentences(text)
+    return len(get_words(text))/total_sentences(text)
 
 
 # Flesch-Kincaid score
 def feature_seven(text):
-    words = total_words(text)
+    words = get_words(text)
     syllables_sum = 0
     for word in words:
         syllables_sum += count_syllables(word)
@@ -99,34 +86,28 @@ def feature_seven(text):
 
 # total number of words per document
 def feature_eight(text):
-    return len(total_words(text))
+    return len(get_words(text))
 
 
-def extract_features(path):
-    with open(path, "r") as myfile:
-        text = myfile.read().replace('\n', '')
-        text = text.decode('utf-8')
-
-    return [feature_one(text), feature_two(text), feature_three(text), feature_four(text),
-            feature_five(text), feature_six(text), feature_seven(text), feature_eight(text)]
+def extract_features(data):
+    return [feature_one(data), feature_two(data), feature_three(data), feature_four(data),
+            feature_five(data), feature_six(data), feature_seven(data), feature_eight(data)]
 
 
 def get_test_data():
     grades = ['1', '3', '6', '9']
-    path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/Russian/dictant/"
-    path_to_features = "/Users/Ivan/PycharmProject/ReadAbility/features/shallow_features_rus.txt"
-    features_file = open(path_to_features, 'w+')
+    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/Russian/dictant/"
 
-    for grade in grades:
-        path_to_grade = path + grade + "/"
-        for filename in os.listdir(path_to_grade):
-            if filename != '.DS_Store':
-                features = extract_features(path_to_grade + filename)
-                for feature in features:
-                    features_file.write(str(feature) + '\n')
-                features_file.write(str(grade) + '\n')
+    dataset = prepare_dataset(path_to_data, grades)
 
-    features_file.close()
+    client = MongoClient('mongodb://localhost:27017/')
+    features_collection = client.features['shallow-rus']
+    features_collection.drop()
+
+    for text in dataset:
+        text_features = {"grade": text.grade,
+                         "features": extract_features(text.data)}
+        features_collection.insert_one(text_features)
 
 
 get_test_data()

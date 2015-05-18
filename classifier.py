@@ -5,13 +5,7 @@ from sklearn import linear_model
 from sklearn import tree
 from sklearn import cross_validation
 import numpy as np
-from itertools import chain, combinations
-
-
-def power_set(iterable):
-    xs = list(iterable)
-    # note we return an iterator rather than a list
-    return chain.from_iterable( combinations(xs,n) for n in range(len(xs)+1) )
+from pymongo import MongoClient
 
 
 class TestData:
@@ -23,102 +17,23 @@ class TestData:
         self.target = []
 
 
-def get_test_data(type, features_set):
-    path_to_feature_folder = "/Users/Ivan/PycharmProject/ReadAbility/features/"
+def get_test_data(features_type):
 
-    i = 0
     test_data = TestData()
 
-    if type == 'ent_eng':
-        with open(path_to_feature_folder + "ent_features_eng.txt") as f:
-            content = f.readlines()
-        while i < len(content):
-            test_data.data.append(np.array([content[i], content[i+1]], dtype=float))
-            # test_data.target.append(np.array((content[i+2]), dtype=float))
-            test_data.target.append((content[i+2]))
-            i += 3
+    client = MongoClient('mongodb://localhost:27017/')
+    features_collection = client.features[features_type]
 
-    if type == 'ent_rus':
-        with open(path_to_feature_folder + "ent_features_rus.txt") as f:
-            content = f.readlines()
-        while i < len(content):
-            test_data.data.append(np.array([content[i], content[i+1]], dtype=float))
-            test_data.target.append(np.array((content[i+2]), dtype=float))
-            i += 3
-
-    if type == 'lm_eng':
-        with open(path_to_feature_folder + "lm_features_eng.txt") as f:
-            content = f.readlines()
-        while i < len(content):
-            arr = []
-            for feature in features_set:
-                arr.append(content[i+feature])
-            test_data.data.append(np.array(arr, dtype=float))
-            test_data.target.append((content[i+5]))
-            i += 6
-
-    if type == 'lm_rus':
-        with open(path_to_feature_folder + "lm_features_rus.txt") as f:
-            content = f.readlines()
-        while i < len(content):
-            arr = []
-            for feature in features_set:
-                arr.append(content[i+feature])
-            test_data.data.append(np.array(arr, dtype=float))
-            test_data.target.append((content[i+5]))
-            i += 6
-
-    if type == 'pos_eng':
-        with open(path_to_feature_folder + "pos_features_eng.txt") as f:
-            content = f.readlines()
-        while i < len(content):
-            arr = []
-            for feature in features_set:
-                arr.append(content[i+feature])
-            test_data.data.append(np.array(arr, dtype=float))
-            test_data.target.append((content[i+35]))
-            i += 36
-
-    if type == 'pos_rus':
-        with open(path_to_feature_folder + "pos_features_rus.txt") as f:
-            content = f.readlines()
-        while i < len(content):
-            arr = []
-            for feature in features_set:
-                arr.append(content[i+feature])
-            test_data.data.append(np.array(arr, dtype=float))
-            test_data.target.append((content[i+35]))
-            i += 36
-
-    if type == 'shallow_eng':
-        with open(path_to_feature_folder + "shallow_features_eng.txt") as f:
-            content = f.readlines()
-        while i < len(content):
-            arr = []
-            for feature in features_set:
-                arr.append(content[i+feature])
-            test_data.data.append(np.array(arr, dtype=float))
-            test_data.target.append((content[i+8]))
-            i += 9
-
-    if type == 'shallow_rus':
-        with open(path_to_feature_folder + "shallow_features_rus.txt") as f:
-            content = f.readlines()
-        while i < len(content):
-            arr = []
-            for feature in features_set:
-                arr.append(content[i+feature])
-            test_data.data.append(np.array(arr, dtype=float))
-            test_data.target.append((content[i+8]))
-            i += 9
-
+    for text_feature in features_collection.find():
+        test_data.target.append(text_feature['grade'])
+        test_data.data.append(np.array(text_feature['features'], dtype=float))
 
     return test_data
 
 
-def classification(type_of_features, features_set):
+def classification():
     cv = 10
-    test_data = get_test_data(type_of_features, features_set)
+    test_data = get_test_data('lm-eng')
 
     logreg = linear_model.LogisticRegression(C=1)
     clf_svm = svm.SVC(kernel='linear', C=1)
@@ -130,12 +45,4 @@ def classification(type_of_features, features_set):
     print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
 
 
-# for items in list(power_set(set([0, 1, 2, 3, 4, 5, 6, 7]))):
-#     if len(items) != 0:
-#         print items
-#         classification('shallow_eng', items)
-
-classification('pos_rus', [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23,
-                           24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34])
-
-
+classification()

@@ -37,20 +37,3 @@ def create_lm(path_to_data, grades):
 
 # create_lm("/Users/Ivan/PycharmProject/ReadAbility/DataSets/", ['Test'])
 # create_lm("/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/byGrade/", ['2-3'])
-# create_lm("/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/byGrade/", ['2-3'])
-
-
-def display():
-    client = MongoClient('mongodb://localhost:27017/')
-    # db = client.language_models_eng
-    # lm_collection = db['2-3']
-    # for n_gram in lm_collection.find({'n-gram': 1}):
-    #     print (n_gram)
-    features_collection = client.features['lm-eng']
-    for feature in features_collection.find():
-        if len(feature['features']) > 3 and feature['grade'] == '11-CCR':
-            print(feature)
-
-
-
-display()

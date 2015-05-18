@@ -1,40 +1,25 @@
 # -*- coding: utf-8 -*-
 from __future__ import division
 import xml.etree.ElementTree as ElementTree
-import nltk
-import string
-import os
+from common_functions import get_words, total_sentences, prepare_dataset
+from pymongo import MongoClient
 
 
-def total_words(text):
-    exclude = set(string.punctuation)
-    words = nltk.tokenize.word_tokenize(text)
-    words = [word for word in words if word not in exclude]
-    return len(words)
-
-
-def total_sentences(text):
-    sent = nltk.sent_tokenize(text)
-    return len(sent)
-
-
-def extract_entities_api(path):
-    tree = ElementTree.parse(path)
-    root = tree.getroot()
+def extract_entities_api(data):
+    root = ElementTree.fromstring(data)
     count = 0
     for value in root.iter('value'):
         count += 1
     return count
 
 
-def extract_features(path):
-    tree = ElementTree.parse(path)
-    root = tree.getroot()
-    data = root[0].text
+def extract_features(data):
+    root = ElementTree.fromstring(data)
+    pure_text = root[0].text
 
-    ne = extract_entities_api(path)
-    tw = total_words(data)
-    ts = total_sentences(data)
+    ne = extract_entities_api(data)
+    tw = len(get_words(pure_text))
+    ts = total_sentences(pure_text)
 
     feature1 = ne/tw*100
     feature2 = ne/ts*100
@@ -45,22 +30,17 @@ def extract_features(path):
 def get_test_data():
 
     grades = ['1', '3', '6', '9']
-
     path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/ApiData/ent/"
-    path_to_features = "/Users/Ivan/PycharmProject/ReadAbility/features/ent_features_rus.txt"
+    dataset = prepare_dataset(path_to_data, grades)
 
-    features_file = open(path_to_features, 'w+')
+    client = MongoClient('mongodb://localhost:27017/')
+    features_collection = client.features['ent-rus']
+    features_collection.drop()
 
-    for grade in grades:
-        path_to_grade = path_to_data + grade + "/"
-        for filename in os.listdir(path_to_grade):
-            if filename != '.DS_Store':
-                features = extract_features(path_to_grade + filename)
-                for feature in features:
-                    features_file.write(str(feature) + '\n')
-                features_file.write(str(grade) + '\n')
-
-    features_file.close()
+    for text in dataset:
+        text_features = {"grade": text.grade,
+                         "features": extract_features(text.data.encode('utf-8'))}
+        features_collection.insert_one(text_features)
 
 
 get_test_data()

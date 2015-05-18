@@ -1,61 +1,82 @@
-
 from __future__ import division
-import os
 import math
 import nltk
 from nltk import ngrams
+from common_functions import prepare_dataset
+from pymongo import MongoClient
+import time
 
 
-def calc_pp(text, n):
+def calc_pp(text, lm, n):
+
     tokens = nltk.word_tokenize(text)
-    tokens = [token.lower() for token in tokens if len(token) > 1]
-    # tokens = [token.lower() for token in tokens]
+
+    tokens = [token.lower() for token in tokens]
+    n_grams = list(ngrams(tokens, n))
     text_length = len(tokens)
-    n_tokens = list(ngrams(tokens, n))
     sum_prob = 0
-    for item in sorted(set(n_tokens)):
-        if n_tokens.count(item) != 1:
-            prob = n_tokens.count(item)/len(n_tokens)
-            sum_prob += math.log(prob, 2)
-            # sum_prob += n_tokens.count(item) * math.log(prob, 2) - math.log(math.factorial(n_tokens.count(item)), 2)
+
+    pipe = [{'$group': {'_id': '$n-gram', 'total': {'$sum': '$count'}}}, {'$match': {'_id': n}}]
+    docs = lm.aggregate(pipeline=pipe)
+    for doc in docs:
+        zero_prob = lm.find({"n-gram": n, "count": 1}).count()/doc['total']
+
+    for item in set(n_grams):
+
+        found_lm = lm.find_one({"type": item, "n-gram": n})
+
+        if found_lm:
+            prob = found_lm["prob"]
+        else:
+            prob = zero_prob
+
+        count_w = n_grams.count(item)
+        sum_prob += count_w * math.log(prob, 2) - math.log(math.factorial(count_w), 2)
 
     entropy = -(1/text_length)*sum_prob
     pp = math.pow(2, entropy)
+    print pp
     return pp
 
 
-def extract_features(path):
-    with open(path, "r") as myfile:
-        data = myfile.read().replace('\n', ' ')
-        data = data.decode('utf-8')
+def extract_features(data, grades):
     features = []
-    for i in xrange(1, 6):
-        features.append(calc_pp(data, i))
+    for grade in grades:
+        print grade
+
+        client = MongoClient('mongodb://localhost:27017/')
+        db = client.language_models_eng
+        lm_collection = db[grade]
+
+        start = time.time()
+        for i in xrange(1, 4):
+            print i
+            features.append(calc_pp(data, lm_collection, i))
+        print str(time.time() - start) + " sec"
     return features
 
 
 def get_test_data():
 
     # grades = ['K-1', '4-5', '9-10']
-    # grades = ['2-3', '6-8', '11-CCR']
+    grades = ['2-3', '6-8', '11-CCR']
     # grades = ['K-1', '2-3', '4-5', '6-8', '9-10', '11-CCR']
-    # path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/byGrade/"
+    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/byGrade/"
 
-    grades = ['1', '3', '6', '9']
-    path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/Russian/dictant/"
+    # grades = ['1', '3', '6', '9']
+    # path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/Russian/dictant/"
 
-    features_file = open('features_lm_rus.txt', 'w+')
+    dataset = prepare_dataset(path_to_data, grades)
 
-    for grade in grades:
-        path_to_grade = path + grade + "/"
-        for filename in os.listdir(path_to_grade):
-            if filename != '.DS_Store':
-                features = extract_features(path_to_grade + filename)
-                for feature in features:
-                    features_file.write(str(feature) + '\n')
-                features_file.write(str(grade) + '\n')
+    client = MongoClient('mongodb://localhost:27017/')
+    features_collection = client.features['lm-eng']
+    features_collection.drop()
 
-    features_file.close()
+    for text in dataset:
+        print text.name
+        text_features = {"grade": text.grade,
+                         "features": extract_features(text.data,  grades)}
+        features_collection.insert_one(text_features)
 
 
 get_test_data()

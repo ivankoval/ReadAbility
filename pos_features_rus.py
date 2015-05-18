@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 from __future__ import division
 import xml.etree.ElementTree as ElementTree
-import nltk
-import string
-import os
 import numpy as np
 import collections
+from common_functions import get_words, total_sentences, prepare_dataset
+from pymongo import MongoClient
+
 
 nouns = ['S']
 verbs = ['V']
@@ -17,28 +17,8 @@ content = ['S', 'V', 'NUM', 'A', 'ADV']
 functional = ['PR', 'COM', 'CONJ', 'PART', 'P', 'INTJ', 'NID']
 
 
-def total_words(text):
-    exclude = set(string.punctuation)
-    words = nltk.tokenize.word_tokenize(text)
-    words = [word for word in words if word not in exclude]
-    return len(words)
-
-
-def total_sentences(text):
-    sent = nltk.sent_tokenize(text)
-    return len(sent)
-
-
-def total_unique_words(text):
-    exclude = set(string.punctuation)
-    words = nltk.tokenize.word_tokenize(text)
-    words = [word for word in words if word not in exclude]
-    return len(np.unique(words))
-
-
-def extract_words(path, pos_type):
-    tree = ElementTree.parse(path)
-    root = tree.getroot()
+def extract_words(data, pos_type):
+    root = ElementTree.fromstring(data)
     words = []
 
     for word in root.iter('I-annotation'):
@@ -61,19 +41,18 @@ def extract_words(path, pos_type):
     return word(len(words), len(np.unique(words)))
 
 
-def extract_features(path, pos_type):
-    tree = ElementTree.parse(path)
-    root = tree.getroot()
-    data = root[0].text
+def extract_features(data, pos_type):
+    root = ElementTree.fromstring(data)
+    pure_text = root[0].text
 
-    extr_words = extract_words(path, pos_type)
+    extr_words = extract_words(data, pos_type)
 
     words = extr_words.words
     unique_words = extr_words.unique_words
 
-    total_w = total_words(data)
-    total_unique_w = total_unique_words(data)
-    total_s = total_sentences(data)
+    total_w = len(get_words(pure_text))
+    total_unique_w = len(np.unique(get_words(pure_text)))
+    total_s = total_sentences(pure_text)
 
     feature1 = words/total_w*100
     feature2 = unique_words/total_w*100
@@ -85,56 +64,26 @@ def extract_features(path, pos_type):
 
 
 def get_test_data():
+    pos_set = [verbs]
+
     grades = ['1', '3', '6', '9']
     # grades = ['2', '4', '7', '10-11']
     # grades = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10-11']
 
     path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/ApiData/pos/"
-    path_to_features = "/Users/Ivan/PycharmProject/ReadAbility/features/pos_features_rus.txt"
+    dataset = prepare_dataset(path_to_data, grades)
 
-    features_file = open(path_to_features, 'w+')
+    client = MongoClient('mongodb://localhost:27017/')
+    features_collection = client.features['pos-rus']
+    features_collection.drop()
 
-    for grade in grades:
-        path_to_grade = path_to_data + grade + "/"
-        for filename in os.listdir(path_to_grade):
-            if filename != '.DS_Store':
+    for text in dataset:
+        features = []
+        for pos in pos_set:
+            features += extract_features(text.data.encode('utf-8'), pos)
 
-                features = extract_features(path_to_grade + filename, nouns)
-                for feature in features:
-                    features_file.write(str(feature) + '\n')
-                features_file.write(str(grade) + '\n')
-
-                features = extract_features(path_to_grade + filename, verbs)
-                for feature in features:
-                    features_file.write(str(feature) + '\n')
-                features_file.write(str(grade) + '\n')
-
-                features = extract_features(path_to_grade + filename, adjectives)
-                for feature in features:
-                    features_file.write(str(feature) + '\n')
-                features_file.write(str(grade) + '\n')
-
-                features = extract_features(path_to_grade + filename, adverbs)
-                for feature in features:
-                    features_file.write(str(feature) + '\n')
-                features_file.write(str(grade) + '\n')
-
-                features = extract_features(path_to_grade + filename, prepositions)
-                for feature in features:
-                    features_file.write(str(feature) + '\n')
-                features_file.write(str(grade) + '\n')
-
-                features = extract_features(path_to_grade + filename, content)
-                for feature in features:
-                    features_file.write(str(feature) + '\n')
-                features_file.write(str(grade) + '\n')
-
-                features = extract_features(path_to_grade + filename, functional)
-                for feature in features:
-                    features_file.write(str(feature) + '\n')
-                features_file.write(str(grade) + '\n')
-
-    features_file.close()
+        text_features = {"grade": text.grade, "features": features}
+        features_collection.insert_one(text_features)
 
 
 get_test_data()
