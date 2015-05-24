@@ -33,7 +33,7 @@ def get_test_data(features_type):
 
 def classification():
     cv = 10
-    test_data = get_test_data('lm-eng')
+    test_data = get_test_data('lm-eng-ig')
 
     logreg = linear_model.LogisticRegression(C=1)
     clf_svm = svm.SVC(kernel='linear', C=1)
@@ -41,8 +41,8 @@ def classification():
 
     scores = cross_validation.cross_val_score(clf_svm, test_data.data, test_data.target,
                                               cv=cv, n_jobs=-1)
-
-    print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std() * 2))
+    print scores
+    print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std()))
 
 
 classification()

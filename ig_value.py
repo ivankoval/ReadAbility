@@ -64,11 +64,7 @@ def prepare_ig_candidates(dataset):
     return ig_candidates
 
 
-def get_all_ig():
-    path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/byGrade/"
-    # grades = ['K-1', '4-5', '9-10']
-    grades = ['2-3', '6-8', '11-CCR']
-    # grades = ['K-1', '2-3', '4-5', '6-8', '9-10', '11-CCR']
+def get_all_ig(path, grades):
 
     dataset = prepare_dataset(path, grades)
     words = prepare_ig_candidates(dataset)
@@ -79,9 +75,20 @@ def get_all_ig():
 
     sorted_ig_words = sorted(ig_words.items(), key=operator.itemgetter(1), reverse=True)
 
-    print len(sorted_ig_words)
+    top_ig_words = list()
     for word in sorted_ig_words:
-        print word[0] + " " + str(word[1])
+        if len(top_ig_words) < 500:
+            top_ig_words.append(word[0])
+        else:
+            break
+    return top_ig_words
 
 
-get_all_ig()
+# path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/byGrade/"
+# grades = ['2-3', '6-8', '11-CCR']
+
+# path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/Russian/dictant/"
+# grades = ['1', '3', '6', '9']
+
+# for word in get_all_ig(path, grades):
+#     print word
