@@ -90,4 +90,16 @@ def get_test_data(f_type, path_to_data, grades):
 
     print str(time.time() - start) + " sec total"
 
-get_test_data('lm-eng-ig', "/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/ig/", ['K-1', '4-5', '9-10'])
+
+def run(lang, type_):
+    path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_test/"
+
+    if lang == 'eng':
+        grade = ['2-3', '6-8', '11-CCR']
+    if lang == 'rus':
+        grade = ['1', '3', '6', '9']
+
+    get_test_data('lm-' + lang + '-' + type_, path + lang + '/' + type_ + '/', grade)
+
+
+run('eng', 'ig')

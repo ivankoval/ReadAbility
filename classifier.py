@@ -42,7 +42,7 @@ def classification():
     scores = cross_validation.cross_val_score(clf_svm, test_data.data, test_data.target,
                                               cv=cv, n_jobs=-1)
     print scores
-    print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std()))
+    print("Accuracy: %0.2f (+/- %0.2f)" % (scores.mean(), scores.std()*2))
 
 
 classification()

@@ -77,7 +77,7 @@ def get_all_ig(path, grades):
 
     top_ig_words = list()
     for word in sorted_ig_words:
-        if len(top_ig_words) < 500:
+        if len(top_ig_words) < 1000:
             top_ig_words.append(word[0])
         else:
             break

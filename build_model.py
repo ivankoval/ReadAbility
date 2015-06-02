@@ -58,13 +58,24 @@ def create_lm(path_to_data, grades, f_type):
 
 def display():
     client = MongoClient('mongodb://localhost:27017/')
-    db = client['lm-rus-word_1']
+    db = client['lm-rus-word-pos_3']
     lm_collection = db['all']
     # db = client['features']
     # lm_collection = db['lm-eng']
     for n_gram in lm_collection.find():
-        print (n_gram['type'])
+        print n_gram
+
+
+def run(lang, type_):
+    path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_test/"
+
+    if lang == 'eng':
+        grades = ['2-3', '6-8', '11-CCR']
+    if lang == 'rus':
+        grades = ['1', '3', '6', '9']
+
+    create_lm(path + lang + '/' + type_ + '/', grades, 'lm-' + lang + '-' + type_)
+
 
 # display()
-create_lm("/Users/Ivan/PycharmProject/ReadAbility/DataSets/Russian/ig/", ['1', '3', '6', '9'], 'lm-rus-ig')
-# create_lm("/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/ig/", ['K-1', '4-5', '9-10'], 'lm-eng-ig')
+run('eng', 'ig')
