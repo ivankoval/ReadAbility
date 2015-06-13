@@ -27,13 +27,14 @@ def get_test_data(features_type):
     for text_feature in features_collection.find():
         test_data.target.append(text_feature['grade'])
         test_data.data.append(np.array(text_feature['features'], dtype=float))
+        # test_data.data.append(text_feature['features'])
 
     return test_data
 
 
 def classification():
     cv = 10
-    test_data = get_test_data('lm-eng-ig')
+    test_data = get_test_data('all-rus')
 
     logreg = linear_model.LogisticRegression(C=1)
     clf_svm = svm.SVC(kernel='linear', C=1)

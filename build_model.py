@@ -67,6 +67,7 @@ def display():
 
 
 def run(lang, type_):
+    # path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_test/"
     path = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_test/"
 
     if lang == 'eng':

@@ -4,7 +4,6 @@ import xml.etree.ElementTree as ElementTree
 from common_functions import get_words, total_sentences, prepare_dataset
 from pymongo import MongoClient
 
-
 def extract_entities_api(data):
     root = ElementTree.fromstring(data)
     count = 0
@@ -30,7 +29,7 @@ def extract_features(data):
 def get_test_data():
 
     grades = ['1', '3', '6', '9']
-    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/ApiData/ent/"
+    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/ApiData/rus/ent/"
     dataset = prepare_dataset(path_to_data, grades)
 
     client = MongoClient('mongodb://localhost:27017/')
@@ -38,9 +37,11 @@ def get_test_data():
     features_collection.drop()
 
     for text in dataset:
-        text_features = {"grade": text.grade,
-                         "features": extract_features(text.data.encode('utf-8'))}
+        features = extract_features(text.data.encode('utf-8'))
+        text_features = {"grade": text.grade, "features": features}
+        print text.grade + " " + text.name + " " + str(features)
         features_collection.insert_one(text_features)
 
 
 get_test_data()
+

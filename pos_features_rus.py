@@ -64,13 +64,11 @@ def extract_features(data, pos_type):
 
 
 def get_test_data():
-    pos_set = [verbs]
+    pos_set = [content, functional]
 
     grades = ['1', '3', '6', '9']
-    # grades = ['2', '4', '7', '10-11']
-    # grades = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10-11']
 
-    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/ApiData/pos/"
+    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/ApiData/rus/pos/"
     dataset = prepare_dataset(path_to_data, grades)
 
     client = MongoClient('mongodb://localhost:27017/')
@@ -83,6 +81,7 @@ def get_test_data():
             features += extract_features(text.data.encode('utf-8'), pos)
 
         text_features = {"grade": text.grade, "features": features}
+        print text.grade + " " + text.name + " " + str(features)
         features_collection.insert_one(text_features)
 
 

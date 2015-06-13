@@ -56,7 +56,7 @@ def feature_four(text):
 
 # Chall-Dale difficult words rate per doc.
 def feature_five(text):
-    path_difficult_words = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/DaleChallEasyWordList.txt"
+    path_difficult_words = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_raw/DaleChallEasyWordList.txt"
     words = get_words(text)
     difficult_words_sum = 0
 
@@ -96,7 +96,7 @@ def extract_features(data):
 
 def get_test_data():
     grades = ['1', '3', '6', '9']
-    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/Russian/dictant/"
+    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_raw/Russian/dictant/"
 
     dataset = prepare_dataset(path_to_data, grades)
 
@@ -105,8 +105,9 @@ def get_test_data():
     features_collection.drop()
 
     for text in dataset:
-        text_features = {"grade": text.grade,
-                         "features": extract_features(text.data)}
+        features = extract_features(text.data)
+        text_features = {"grade": text.grade, "features": features}
+        print text.grade + " " + text.name + " " + str(features)
         features_collection.insert_one(text_features)
 
 
