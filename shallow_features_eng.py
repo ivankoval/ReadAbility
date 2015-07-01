@@ -2,7 +2,7 @@ from __future__ import division
 import re
 from common_functions import get_words, total_sentences, prepare_dataset
 from pymongo import MongoClient
-
+import time
 
 const = r"bcdfghjklmnpqrstvwxyz"
 vow = r'aeiou'
@@ -97,7 +97,7 @@ def feature_four(text):
 
 # Chall-Dale difficult words rate per doc.
 def feature_five(text):
-    path_difficult_words = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/DaleChallEasyWordList.txt"
+    path_difficult_words = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_raw/DaleChallEasyWordList.txt"
     words = get_words(text)
     difficult_words_sum = 0
 
@@ -131,16 +131,17 @@ def feature_eight(text):
 
 
 def extract_features(data):
-
+    # print str(feature_one(data)) + " " + str(feature_two(data)) + " " + str(feature_three(data)) +\
+    # " " + str(feature_four(data)) + " " + str(feature_five(data)) + " " + str(feature_six(data)) +\
+    # " " + str(feature_seven(data)) + " " + str(feature_eight(data))
     return [feature_one(data), feature_two(data), feature_three(data), feature_four(data),
             feature_five(data), feature_six(data), feature_seven(data), feature_eight(data)]
 
 
 def get_test_data():
-    grades = ['K-1', '4-5', '9-10']
-    # grades = ['2-3', '6-8', '11-CCR']
-    # grades = ['K-1', '2-3', '4-5', '6-8', '9-10', '11-CCR']
-    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/byGrade/"
+    # grades = ['K-1', '4-5', '9-10']
+    grades = ['2-3', '6-8', '11-CCR']
+    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_raw/eng/byGrade/"
     dataset = prepare_dataset(path_to_data, grades)
 
     client = MongoClient('mongodb://localhost:27017/')
@@ -148,9 +149,12 @@ def get_test_data():
     features_collection.drop()
 
     for text in dataset:
+        print text.grade
         text_features = {"grade": text.grade,
                          "features": extract_features(text.data)}
         features_collection.insert_one(text_features)
 
 
+start = time.time()
 get_test_data()
+print str(time.time() - start) + " sec"

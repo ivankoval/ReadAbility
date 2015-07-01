@@ -102,4 +102,4 @@ def run(lang, type_):
     get_test_data('lm-' + lang + '-' + type_, path + lang + '/' + type_ + '/', grade)
 
 
-run('eng', 'ig')
+run('rus', 'word')

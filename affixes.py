@@ -47,7 +47,8 @@ def extract_features(data):
 
     # print [prefix_num/len(words), suffix_num/len(words)]
     # return [prefix_num/len(words), suffix_num/len(words)]
-    return [prefix_num/len(words)]
+    print suffix_num/len(words)
+    return [suffix_num/len(words)]
 
 
 

@@ -3,6 +3,7 @@ from __future__ import division
 import xml.etree.ElementTree as ElementTree
 from common_functions import get_words, total_sentences, prepare_dataset
 from pymongo import MongoClient
+import time
 
 def extract_entities_api(data):
     root = ElementTree.fromstring(data)
@@ -39,9 +40,10 @@ def get_test_data():
     for text in dataset:
         features = extract_features(text.data.encode('utf-8'))
         text_features = {"grade": text.grade, "features": features}
-        print text.grade + " " + text.name + " " + str(features)
+        print str(features)
         features_collection.insert_one(text_features)
 
 
+start = time.time()
 get_test_data()
-
+print str(time.time() - start) + " sec"

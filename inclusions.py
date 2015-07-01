@@ -3,6 +3,7 @@ from __future__ import division
 from sklearn import svm
 from pymongo import MongoClient
 from common_functions import get_words, total_sentences, prepare_dataset
+import time
 
 
 class TestData:
@@ -164,7 +165,9 @@ def extract_features(data, clf):
                 borrowed_num += 1
             if clf.predict(arr)[0] == 'original':
                 original_num += 1
-    return [borrowed_num/len(words)*100, original_num/len(words)*100]
+    return [borrowed_num/len(words)*100]
+    # return [original_num/len(words)*100]
+    # return [borrowed_num/len(words)*100, original_num/len(words)*100]
 
 def get_test_data():
 
@@ -182,8 +185,10 @@ def get_test_data():
     for text in dataset:
         features = extract_features(text.data, clf)
         text_features = {"grade": text.grade, "features": features}
-        print text.grade + " " + text.name + " " + str(features)
+        print str(features)
         features_collection.insert_one(text_features)
 
 
+start = time.time()
 get_test_data()
+print str(time.time() - start) + " sec"

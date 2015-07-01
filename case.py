@@ -4,6 +4,7 @@ import nltk
 import pymorphy2
 from common_functions import prepare_dataset
 from pymongo import MongoClient
+import time
 
 def extract_features(data):
 
@@ -33,9 +34,11 @@ def extract_features(data):
                         if str(case) != 'None':
                             total += 1
     if total == 0:
+        print "0 0 0 0 0 0"
         return [0, 0, 0, 0, 0, 0]
 
-    print nomn/total, gent/total, datv/total, accs/total, ablt/total, loct/total
+    print str(nomn/total*100) + " " + str(gent/total*100) + " " + str(datv/total*100) +\
+          " " + str(accs/total*100) + " " + str(ablt/total*100) + " " + str(loct/total*100)
     return [nomn/total*100, gent/total*100, datv/total*100, accs/total*100, ablt/total*100, loct/total*100]
 
 
@@ -45,7 +48,7 @@ def get_test_data():
     grades = ['1', '3', '6', '9']
 
     # path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_test/rus/word/"
-    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_raw/Russian/dictant/"
+    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_raw/rus/word/"
 
     dataset = prepare_dataset(path_to_data, grades)
 
@@ -58,4 +61,6 @@ def get_test_data():
         features_collection.insert_one(text_features)
 
 
+start = time.time()
 get_test_data()
+print str(time.time() - start) + " sec"

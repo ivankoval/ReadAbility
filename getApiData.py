@@ -49,9 +49,13 @@ def run(lang, type_):
         path_load = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_raw/English/byGrade/"
     if lang == 'rus':
         grades = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '10-11']
-        path_load = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_raw/Russian/dictant/"
+        path_load = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_raw/rus/word/"
 
     get_api_data(path_load, path_save + lang + '/' + type_ + '/', grades, type_)
 
 
-run('eng', 'pos')
+start = time.time()
+
+run('rus', 'pos')
+
+print str(time.time() - start) + " sec"

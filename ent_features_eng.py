@@ -2,6 +2,7 @@ from __future__ import division
 import nltk
 import collections
 import numpy as np
+import time
 from common_functions import get_words, total_sentences, prepare_dataset
 from pymongo import MongoClient
 
@@ -28,6 +29,7 @@ def extract_features(data):
     feature1 = ne/tw*100
     feature2 = ne/ts*100
 
+    print str(feature1) + " " + str(feature2)
     return [feature1, feature2]
 
 
@@ -35,7 +37,7 @@ def get_test_data():
     # grades = ['K-1', '4-5', '9-10']
     grades = ['2-3', '6-8', '11-CCR']
     # grades = ['K-1', '2-3', '4-5', '6-8', '9-10', '11-CCR']
-    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets/English/byGrade/"
+    path_to_data = "/Users/Ivan/PycharmProject/ReadAbility/DataSets_raw/eng/byGrade/"
 
     dataset = prepare_dataset(path_to_data, grades)
 
@@ -49,4 +51,6 @@ def get_test_data():
         features_collection.insert_one(text_features)
 
 
+start = time.time()
 get_test_data()
+print str(time.time() - start) + " sec"

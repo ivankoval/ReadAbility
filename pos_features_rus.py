@@ -5,7 +5,7 @@ import numpy as np
 import collections
 from common_functions import get_words, total_sentences, prepare_dataset
 from pymongo import MongoClient
-
+import time
 
 nouns = ['S']
 verbs = ['V']
@@ -64,7 +64,7 @@ def extract_features(data, pos_type):
 
 
 def get_test_data():
-    pos_set = [content, functional]
+    pos_set = [nouns, verbs, adjectives, adverbs, prepositions]
 
     grades = ['1', '3', '6', '9']
 
@@ -81,8 +81,10 @@ def get_test_data():
             features += extract_features(text.data.encode('utf-8'), pos)
 
         text_features = {"grade": text.grade, "features": features}
-        print text.grade + " " + text.name + " " + str(features)
+        print str(features)
         features_collection.insert_one(text_features)
 
 
+start = time.time()
 get_test_data()
+print str(time.time() - start) + " sec"
